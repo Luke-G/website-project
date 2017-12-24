@@ -19,6 +19,7 @@ body {
   padding: 1em;
   width: auto;
   background: #fff;
+  margin-top: -1em;
 }
 
 .lodge-view {
@@ -33,6 +34,11 @@ body {
 .flex-right {
   flex: 50%;
   padding: 2em;
+}
+
+.flex-right h2 {
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .lodge-name {
@@ -54,6 +60,9 @@ body {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+  margin-bottom: 1em;
 }
 
 .gallery-image {
@@ -78,5 +87,9 @@ h3 {
 }
 
 .lodge-description {
+  margin-bottom: 1em;
+}
+
+.lodge-capacity {
   margin-bottom: 1em;
 }

@@ -1,0 +1,1538 @@
+[
+    {
+      "id": 1,
+      "site_id": 1,
+      "name": "Kingfisher",
+      "tagline": "Positioned on the edge of Specimen Lake it commands views over the Lakes and breathtaking views over Exmoor. If you enjoy wild life you have found the ideal location for a peace and tranquility holiday.",
+      "overview_text": "You don't have to be an angler to appreciate the beautiful views from this Lodge. Positioned on the edge of Specimen Lake it commands views over the Lakes and breathtaking views over Exmoor. If you enjoy wild life you have found the ideal location for a peace and tranquility holiday.\n             All lodges have smoke detectors, fire extinguishers, fire blankets and all fitted with carbon monoxide gas alarms. The drinking water at South Combe Waters is fresh natural spring water supplied via a bore hole.",
+      "features_text": "<strong>Bedrooms</strong>: One king sized bedroom and two twin bedrooms with single beds.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
+      "slug": "kingfisher",
+      "description": "With commanding views stretching for miles over the Devon countryside, Kingfisher Lodge is just a few steps from the main Specimen Lake. Kingfisher Lodge has one King sized room and two twin rooms with two single beds in each, spacious living/dining area, kitchen and bathroom. A perfect lodge for the perfect family holiday.",
+      "no_of_bedrooms": 3,
+      "no_sleeps": 6,
+      "max_occupancy": 6,
+      "active": 1,
+      "image_url": "https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg",
+      "created_at": "2017-12-11 12:42:39",
+      "updated_at": "2017-12-11 12:42:39",
+      "features": [
+        {
+          "item": "<i class='material-icons'>hotel</i>",
+          "description": "One king sized bedroom and two twin bedrooms with single beds."
+        },
+        {
+          "item": "<i class='material-icons'>restaurant</i>",
+          "description": "The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings. There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner."
+        },
+        {
+          "item": "<i class='material-icons'>event_seat</i>",
+          "description": "The lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious. There is also a LCD Television, Dvd Player and a Playstation games console."
+        },
+        {
+          "item": "<i class='material-icons'>smoke_free</i>",
+          "description": "We have a No Smoking rule in all lodges."
+        },
+        {
+          "item": "<i class='material-icons'>account_balance</i>",
+          "description": "We require a cash deposit of £50 on arrival to cover any incidental damages and breakages that may occur. This is returned to you on the day you leave once we have inspected the lodges."
+        }  
+      ],
+      "tariffs": [
+        {
+          "id": 1,
+          "property_id": 1,
+          "rate": 530,
+          "start_date": "2017-09-01 00:00:00",
+          "end_date": "2017-09-30 00:00:00"
+        },
+        {
+          "id": 6,
+          "property_id": 1,
+          "rate": 435,
+          "start_date": "2017-10-01 00:00:00",
+          "end_date": "2017-10-31 00:00:00"
+        },
+        {
+          "id": 10,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2017-11-01 00:00:00",
+          "end_date": "2017-11-30 00:00:00"
+        },
+        {
+          "id": 14,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2017-12-01 00:00:00",
+          "end_date": "2017-12-31 00:00:00"
+        },
+        {
+          "id": 18,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-01-01 00:00:00",
+          "end_date": "2018-01-31 00:00:00"
+        },
+        {
+          "id": 22,
+          "property_id": 1,
+          "rate": 435,
+          "start_date": "2018-02-01 00:00:00",
+          "end_date": "2018-03-02 00:00:00"
+        },
+        {
+          "id": 26,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-03-03 00:00:00",
+          "end_date": "2018-03-09 00:00:00"
+        },
+        {
+          "id": 30,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-03-10 00:00:00",
+          "end_date": "2018-03-16 00:00:00"
+        },
+        {
+          "id": 34,
+          "property_id": 1,
+          "rate": 495,
+          "start_date": "2018-03-17 00:00:00",
+          "end_date": "2018-03-23 00:00:00"
+        },
+        {
+          "id": 38,
+          "property_id": 1,
+          "rate": 495,
+          "start_date": "2018-03-24 00:00:00",
+          "end_date": "2018-03-30 00:00:00"
+        },
+        {
+          "id": 42,
+          "property_id": 1,
+          "rate": 495,
+          "start_date": "2018-03-31 00:00:00",
+          "end_date": "2018-04-06 00:00:00"
+        },
+        {
+          "id": 46,
+          "property_id": 1,
+          "rate": 510,
+          "start_date": "2018-04-07 00:00:00",
+          "end_date": "2018-04-13 00:00:00"
+        },
+        {
+          "id": 50,
+          "property_id": 1,
+          "rate": 510,
+          "start_date": "2018-04-14 00:00:00",
+          "end_date": "2018-04-20 00:00:00"
+        },
+        {
+          "id": 54,
+          "property_id": 1,
+          "rate": 510,
+          "start_date": "2018-04-21 00:00:00",
+          "end_date": "2018-04-27 00:00:00"
+        },
+        {
+          "id": 58,
+          "property_id": 1,
+          "rate": 515,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 62,
+          "property_id": 1,
+          "rate": 515,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 66,
+          "property_id": 1,
+          "rate": 515,
+          "start_date": "2018-05-05 00:00:00",
+          "end_date": "2018-05-11 00:00:00"
+        },
+        {
+          "id": 70,
+          "property_id": 1,
+          "rate": 515,
+          "start_date": "2018-05-12 00:00:00",
+          "end_date": "2018-05-18 00:00:00"
+        },
+        {
+          "id": 74,
+          "property_id": 1,
+          "rate": 515,
+          "start_date": "2018-05-19 00:00:00",
+          "end_date": "2018-05-25 00:00:00"
+        },
+        {
+          "id": 78,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-05-26 00:00:00",
+          "end_date": "2018-06-01 00:00:00"
+        },
+        {
+          "id": 82,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-06-02 00:00:00",
+          "end_date": "2018-06-08 00:00:00"
+        },
+        {
+          "id": 86,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-06-09 00:00:00",
+          "end_date": "2018-06-15 00:00:00"
+        },
+        {
+          "id": 90,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-06-16 00:00:00",
+          "end_date": "2018-06-22 00:00:00"
+        },
+        {
+          "id": 94,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-06-23 00:00:00",
+          "end_date": "2018-06-29 00:00:00"
+        },
+        {
+          "id": 98,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-06-30 00:00:00",
+          "end_date": "2018-07-06 00:00:00"
+        },
+        {
+          "id": 102,
+          "property_id": 1,
+          "rate": 635,
+          "start_date": "2018-07-07 00:00:00",
+          "end_date": "2018-07-13 00:00:00"
+        },
+        {
+          "id": 106,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-07-14 00:00:00",
+          "end_date": "2018-07-20 00:00:00"
+        },
+        {
+          "id": 110,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-07-21 00:00:00",
+          "end_date": "2018-07-27 00:00:00"
+        },
+        {
+          "id": 114,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-07-28 00:00:00",
+          "end_date": "2018-08-03 00:00:00"
+        },
+        {
+          "id": 118,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-08-04 00:00:00",
+          "end_date": "2018-08-10 00:00:00"
+        },
+        {
+          "id": 122,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 126,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 130,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-08-25 00:00:00",
+          "end_date": "2018-08-31 00:00:00"
+        },
+        {
+          "id": 134,
+          "property_id": 1,
+          "rate": 725,
+          "start_date": "2018-09-01 00:00:00",
+          "end_date": "2018-09-07 00:00:00"
+        },
+        {
+          "id": 138,
+          "property_id": 1,
+          "rate": 530,
+          "start_date": "2018-09-08 00:00:00",
+          "end_date": "2018-09-14 00:00:00"
+        },
+        {
+          "id": 142,
+          "property_id": 1,
+          "rate": 530,
+          "start_date": "2018-09-15 00:00:00",
+          "end_date": "2018-09-21 00:00:00"
+        },
+        {
+          "id": 146,
+          "property_id": 1,
+          "rate": 530,
+          "start_date": "2018-09-22 00:00:00",
+          "end_date": "2018-09-28 00:00:00"
+        },
+        {
+          "id": 150,
+          "property_id": 1,
+          "rate": 530,
+          "start_date": "2018-09-29 00:00:00",
+          "end_date": "2018-10-05 00:00:00"
+        },
+        {
+          "id": 154,
+          "property_id": 1,
+          "rate": 435,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 158,
+          "property_id": 1,
+          "rate": 435,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 162,
+          "property_id": 1,
+          "rate": 435,
+          "start_date": "2018-10-20 00:00:00",
+          "end_date": "2018-10-26 00:00:00"
+        },
+        {
+          "id": 166,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-10-27 00:00:00",
+          "end_date": "2018-11-02 00:00:00"
+        },
+        {
+          "id": 170,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-11-03 00:00:00",
+          "end_date": "2018-11-09 00:00:00"
+        },
+        {
+          "id": 174,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-11-10 00:00:00",
+          "end_date": "2018-11-16 00:00:00"
+        },
+        {
+          "id": 178,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-11-17 00:00:00",
+          "end_date": "2018-11-23 00:00:00"
+        },
+        {
+          "id": 182,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-11-24 00:00:00",
+          "end_date": "2018-11-30 00:00:00"
+        },
+        {
+          "id": 186,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-12-01 00:00:00",
+          "end_date": "2018-12-07 00:00:00"
+        },
+        {
+          "id": 190,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-12-08 00:00:00",
+          "end_date": "2018-12-14 00:00:00"
+        },
+        {
+          "id": 194,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-12-15 00:00:00",
+          "end_date": "2018-12-21 00:00:00"
+        },
+        {
+          "id": 198,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-12-22 00:00:00",
+          "end_date": "2018-12-28 00:00:00"
+        },
+        {
+          "id": 202,
+          "property_id": 1,
+          "rate": 430,
+          "start_date": "2018-12-29 00:00:00",
+          "end_date": "2019-01-04 00:00:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "site_id": 1,
+      "name": "Badgers Retreat",
+      "tagline": "A Three Bedroom Lodge with un spoilt views over Exmoor and being meters from Mystery lake make this the ideal location if you want to watch the Kingfishers and other wild life in the close vicinity of the lodge.",
+      "overview_text": "You don't have to be an angler to appreciate the beautiful views from this Lodge. Positioned on the edge of Specimen Lake it commands views over the Lakes and breathtaking views over Exmoor. If you enjoy wild life you have found the ideal location for a peace and tranquility holiday.\n                All lodges have smoke detectors, fire extinguishers, fire blankets and all fitted with carbon monoxide gas alarms. The drinking water at South Combe Waters is fresh natural spring water supplied via a bore hole.",
+      "features_text": "<strong>Bedrooms</strong>: One king sized bedroom and two twin bedrooms with single beds.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
+      "slug": "badgers-retreat",
+      "description": "Situated steps away from both Mystery and Specimen Lake, Badgers Retreat has an elevated view of the stunning countryside and lakes alike. Badgers Retreat has one king sized room and two twin rooms with two single beds in each, spacious living/dining area, kitchen and walk in shower. A stunning lodge to watch the Kingfishers and other wild life in the close vicinity of the lodge.",
+      "features": null,
+      "no_of_bedrooms": 3,
+      "no_sleeps": 6,
+      "max_occupancy": 6,
+      "active": 1,
+      "image_url": "https://c1.staticflickr.com/5/4444/37944893541_d3bd54752d_h.jpg",
+      "created_at": "2017-12-11 12:42:39",
+      "updated_at": "2017-12-11 12:42:39",
+      "tariffs": [
+        {
+          "id": 2,
+          "property_id": 2,
+          "rate": 530,
+          "start_date": "2017-09-01 00:00:00",
+          "end_date": "2017-09-30 00:00:00"
+        },
+        {
+          "id": 7,
+          "property_id": 2,
+          "rate": 435,
+          "start_date": "2017-10-01 00:00:00",
+          "end_date": "2017-10-31 00:00:00"
+        },
+        {
+          "id": 11,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2017-11-01 00:00:00",
+          "end_date": "2017-11-30 00:00:00"
+        },
+        {
+          "id": 15,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2017-12-01 00:00:00",
+          "end_date": "2017-12-31 00:00:00"
+        },
+        {
+          "id": 19,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-01-01 00:00:00",
+          "end_date": "2018-01-31 00:00:00"
+        },
+        {
+          "id": 23,
+          "property_id": 2,
+          "rate": 435,
+          "start_date": "2018-02-01 00:00:00",
+          "end_date": "2018-03-02 00:00:00"
+        },
+        {
+          "id": 27,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-03-03 00:00:00",
+          "end_date": "2018-03-09 00:00:00"
+        },
+        {
+          "id": 31,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-03-10 00:00:00",
+          "end_date": "2018-03-16 00:00:00"
+        },
+        {
+          "id": 35,
+          "property_id": 2,
+          "rate": 495,
+          "start_date": "2018-03-17 00:00:00",
+          "end_date": "2018-03-23 00:00:00"
+        },
+        {
+          "id": 39,
+          "property_id": 2,
+          "rate": 495,
+          "start_date": "2018-03-24 00:00:00",
+          "end_date": "2018-03-30 00:00:00"
+        },
+        {
+          "id": 43,
+          "property_id": 2,
+          "rate": 495,
+          "start_date": "2018-03-31 00:00:00",
+          "end_date": "2018-04-06 00:00:00"
+        },
+        {
+          "id": 47,
+          "property_id": 2,
+          "rate": 510,
+          "start_date": "2018-04-07 00:00:00",
+          "end_date": "2018-04-13 00:00:00"
+        },
+        {
+          "id": 51,
+          "property_id": 2,
+          "rate": 510,
+          "start_date": "2018-04-14 00:00:00",
+          "end_date": "2018-04-20 00:00:00"
+        },
+        {
+          "id": 55,
+          "property_id": 2,
+          "rate": 510,
+          "start_date": "2018-04-21 00:00:00",
+          "end_date": "2018-04-27 00:00:00"
+        },
+        {
+          "id": 59,
+          "property_id": 2,
+          "rate": 515,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 63,
+          "property_id": 2,
+          "rate": 515,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 67,
+          "property_id": 2,
+          "rate": 515,
+          "start_date": "2018-05-05 00:00:00",
+          "end_date": "2018-05-11 00:00:00"
+        },
+        {
+          "id": 71,
+          "property_id": 2,
+          "rate": 515,
+          "start_date": "2018-05-12 00:00:00",
+          "end_date": "2018-05-18 00:00:00"
+        },
+        {
+          "id": 75,
+          "property_id": 2,
+          "rate": 515,
+          "start_date": "2018-05-19 00:00:00",
+          "end_date": "2018-05-25 00:00:00"
+        },
+        {
+          "id": 79,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-05-26 00:00:00",
+          "end_date": "2018-06-01 00:00:00"
+        },
+        {
+          "id": 83,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-06-02 00:00:00",
+          "end_date": "2018-06-08 00:00:00"
+        },
+        {
+          "id": 87,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-06-09 00:00:00",
+          "end_date": "2018-06-15 00:00:00"
+        },
+        {
+          "id": 91,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-06-16 00:00:00",
+          "end_date": "2018-06-22 00:00:00"
+        },
+        {
+          "id": 95,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-06-23 00:00:00",
+          "end_date": "2018-06-29 00:00:00"
+        },
+        {
+          "id": 99,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-06-30 00:00:00",
+          "end_date": "2018-07-06 00:00:00"
+        },
+        {
+          "id": 103,
+          "property_id": 2,
+          "rate": 635,
+          "start_date": "2018-07-07 00:00:00",
+          "end_date": "2018-07-13 00:00:00"
+        },
+        {
+          "id": 107,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-07-14 00:00:00",
+          "end_date": "2018-07-20 00:00:00"
+        },
+        {
+          "id": 111,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-07-21 00:00:00",
+          "end_date": "2018-07-27 00:00:00"
+        },
+        {
+          "id": 115,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-07-28 00:00:00",
+          "end_date": "2018-08-03 00:00:00"
+        },
+        {
+          "id": 119,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-08-04 00:00:00",
+          "end_date": "2018-08-10 00:00:00"
+        },
+        {
+          "id": 123,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 127,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 131,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-08-25 00:00:00",
+          "end_date": "2018-08-31 00:00:00"
+        },
+        {
+          "id": 135,
+          "property_id": 2,
+          "rate": 725,
+          "start_date": "2018-09-01 00:00:00",
+          "end_date": "2018-09-07 00:00:00"
+        },
+        {
+          "id": 139,
+          "property_id": 2,
+          "rate": 530,
+          "start_date": "2018-09-08 00:00:00",
+          "end_date": "2018-09-14 00:00:00"
+        },
+        {
+          "id": 143,
+          "property_id": 2,
+          "rate": 530,
+          "start_date": "2018-09-15 00:00:00",
+          "end_date": "2018-09-21 00:00:00"
+        },
+        {
+          "id": 147,
+          "property_id": 2,
+          "rate": 530,
+          "start_date": "2018-09-22 00:00:00",
+          "end_date": "2018-09-28 00:00:00"
+        },
+        {
+          "id": 151,
+          "property_id": 2,
+          "rate": 530,
+          "start_date": "2018-09-29 00:00:00",
+          "end_date": "2018-10-05 00:00:00"
+        },
+        {
+          "id": 155,
+          "property_id": 2,
+          "rate": 435,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 159,
+          "property_id": 2,
+          "rate": 435,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 163,
+          "property_id": 2,
+          "rate": 435,
+          "start_date": "2018-10-20 00:00:00",
+          "end_date": "2018-10-26 00:00:00"
+        },
+        {
+          "id": 167,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-10-27 00:00:00",
+          "end_date": "2018-11-02 00:00:00"
+        },
+        {
+          "id": 171,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-11-03 00:00:00",
+          "end_date": "2018-11-09 00:00:00"
+        },
+        {
+          "id": 175,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-11-10 00:00:00",
+          "end_date": "2018-11-16 00:00:00"
+        },
+        {
+          "id": 179,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-11-17 00:00:00",
+          "end_date": "2018-11-23 00:00:00"
+        },
+        {
+          "id": 183,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-11-24 00:00:00",
+          "end_date": "2018-11-30 00:00:00"
+        },
+        {
+          "id": 187,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-12-01 00:00:00",
+          "end_date": "2018-12-07 00:00:00"
+        },
+        {
+          "id": 191,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-12-08 00:00:00",
+          "end_date": "2018-12-14 00:00:00"
+        },
+        {
+          "id": 195,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-12-15 00:00:00",
+          "end_date": "2018-12-21 00:00:00"
+        },
+        {
+          "id": 199,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-12-22 00:00:00",
+          "end_date": "2018-12-28 00:00:00"
+        },
+        {
+          "id": 203,
+          "property_id": 2,
+          "rate": 430,
+          "start_date": "2018-12-29 00:00:00",
+          "end_date": "2019-01-04 00:00:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "site_id": 1,
+      "name": "Dormouse",
+      "tagline": "A Three Bedroom Lodge with un spoilt views over Exmoor and being meters from Mystery lake make this the ideal location if you want to watch the Kingfishers and other wild life in the close vicinity of the lodge.",
+      "overview_text": "You don't have to be an angler to appreciate the beautiful views from this Lodge. Positioned on the edge of Specimen Lake it commands views over the Lakes and breathtaking views over Exmoor. If you enjoy wild life you have found the ideal location for a peace and tranquility holiday.\n                All lodges have smoke detectors, fire extinguishers, fire blankets and all fitted with carbon monoxide gas alarms. The drinking water at South Combe Waters is fresh natural spring water supplied via a bore hole.",
+      "features_text": "<strong>Bedrooms</strong>: One double bedroom and two single bedrooms with one bed in each.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
+      "slug": "dormouse",
+      "description": "Dormouse is cosy, warm and the ideal lodge to relax and unwind in after a long days fishing. With one double bed and one single bed, Dormouse is located above Mystery Lake with its own decking area to absorb the views and watch the wildlife from.",
+      "features": null,
+      "no_of_bedrooms": 2,
+      "no_sleeps": 3,
+      "max_occupancy": 3,
+      "active": 1,
+      "image_url": "https://c1.staticflickr.com/5/4467/26169202679_d9f042408f_h.jpg",
+      "created_at": "2017-12-11 12:42:39",
+      "updated_at": "2017-12-11 12:42:39",
+      "tariffs": [
+        {
+          "id": 3,
+          "property_id": 3,
+          "rate": 460,
+          "start_date": "2017-09-01 00:00:00",
+          "end_date": "2017-09-30 00:00:00"
+        },
+        {
+          "id": 8,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2017-10-01 00:00:00",
+          "end_date": "2017-10-31 00:00:00"
+        },
+        {
+          "id": 12,
+          "property_id": 3,
+          "rate": 370,
+          "start_date": "2017-11-01 00:00:00",
+          "end_date": "2017-11-30 00:00:00"
+        },
+        {
+          "id": 16,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2017-12-01 00:00:00",
+          "end_date": "2017-12-31 00:00:00"
+        },
+        {
+          "id": 20,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2018-01-01 00:00:00",
+          "end_date": "2018-01-31 00:00:00"
+        },
+        {
+          "id": 24,
+          "property_id": 3,
+          "rate": 365,
+          "start_date": "2018-02-01 00:00:00",
+          "end_date": "2018-03-02 00:00:00"
+        },
+        {
+          "id": 28,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2018-03-03 00:00:00",
+          "end_date": "2018-03-09 00:00:00"
+        },
+        {
+          "id": 32,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2018-03-10 00:00:00",
+          "end_date": "2018-03-16 00:00:00"
+        },
+        {
+          "id": 36,
+          "property_id": 3,
+          "rate": 380,
+          "start_date": "2018-03-17 00:00:00",
+          "end_date": "2018-03-23 00:00:00"
+        },
+        {
+          "id": 40,
+          "property_id": 3,
+          "rate": 380,
+          "start_date": "2018-03-24 00:00:00",
+          "end_date": "2018-03-30 00:00:00"
+        },
+        {
+          "id": 44,
+          "property_id": 3,
+          "rate": 380,
+          "start_date": "2018-03-31 00:00:00",
+          "end_date": "2018-04-06 00:00:00"
+        },
+        {
+          "id": 48,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-04-07 00:00:00",
+          "end_date": "2018-04-13 00:00:00"
+        },
+        {
+          "id": 52,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-04-14 00:00:00",
+          "end_date": "2018-04-20 00:00:00"
+        },
+        {
+          "id": 56,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-04-21 00:00:00",
+          "end_date": "2018-04-27 00:00:00"
+        },
+        {
+          "id": 60,
+          "property_id": 3,
+          "rate": 410,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 64,
+          "property_id": 3,
+          "rate": 410,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 68,
+          "property_id": 3,
+          "rate": 410,
+          "start_date": "2018-05-05 00:00:00",
+          "end_date": "2018-05-11 00:00:00"
+        },
+        {
+          "id": 72,
+          "property_id": 3,
+          "rate": 410,
+          "start_date": "2018-05-12 00:00:00",
+          "end_date": "2018-05-18 00:00:00"
+        },
+        {
+          "id": 76,
+          "property_id": 3,
+          "rate": 410,
+          "start_date": "2018-05-19 00:00:00",
+          "end_date": "2018-05-25 00:00:00"
+        },
+        {
+          "id": 80,
+          "property_id": 3,
+          "rate": 505,
+          "start_date": "2018-05-26 00:00:00",
+          "end_date": "2018-06-01 00:00:00"
+        },
+        {
+          "id": 84,
+          "property_id": 3,
+          "rate": 510,
+          "start_date": "2018-06-02 00:00:00",
+          "end_date": "2018-06-08 00:00:00"
+        },
+        {
+          "id": 88,
+          "property_id": 3,
+          "rate": 510,
+          "start_date": "2018-06-09 00:00:00",
+          "end_date": "2018-06-15 00:00:00"
+        },
+        {
+          "id": 92,
+          "property_id": 3,
+          "rate": 510,
+          "start_date": "2018-06-16 00:00:00",
+          "end_date": "2018-06-22 00:00:00"
+        },
+        {
+          "id": 96,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-06-23 00:00:00",
+          "end_date": "2018-06-29 00:00:00"
+        },
+        {
+          "id": 100,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-06-30 00:00:00",
+          "end_date": "2018-07-06 00:00:00"
+        },
+        {
+          "id": 104,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-07-07 00:00:00",
+          "end_date": "2018-07-13 00:00:00"
+        },
+        {
+          "id": 108,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-07-14 00:00:00",
+          "end_date": "2018-07-20 00:00:00"
+        },
+        {
+          "id": 112,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-07-21 00:00:00",
+          "end_date": "2018-07-27 00:00:00"
+        },
+        {
+          "id": 116,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-07-28 00:00:00",
+          "end_date": "2018-08-03 00:00:00"
+        },
+        {
+          "id": 120,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-08-04 00:00:00",
+          "end_date": "2018-08-10 00:00:00"
+        },
+        {
+          "id": 124,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 128,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 132,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-08-25 00:00:00",
+          "end_date": "2018-08-31 00:00:00"
+        },
+        {
+          "id": 136,
+          "property_id": 3,
+          "rate": 560,
+          "start_date": "2018-09-01 00:00:00",
+          "end_date": "2018-09-07 00:00:00"
+        },
+        {
+          "id": 140,
+          "property_id": 3,
+          "rate": 460,
+          "start_date": "2018-09-08 00:00:00",
+          "end_date": "2018-09-14 00:00:00"
+        },
+        {
+          "id": 144,
+          "property_id": 3,
+          "rate": 460,
+          "start_date": "2018-09-15 00:00:00",
+          "end_date": "2018-09-21 00:00:00"
+        },
+        {
+          "id": 148,
+          "property_id": 3,
+          "rate": 440,
+          "start_date": "2018-09-22 00:00:00",
+          "end_date": "2018-09-28 00:00:00"
+        },
+        {
+          "id": 152,
+          "property_id": 3,
+          "rate": 440,
+          "start_date": "2018-09-29 00:00:00",
+          "end_date": "2018-10-05 00:00:00"
+        },
+        {
+          "id": 156,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 160,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 164,
+          "property_id": 3,
+          "rate": 405,
+          "start_date": "2018-10-20 00:00:00",
+          "end_date": "2018-10-26 00:00:00"
+        },
+        {
+          "id": 168,
+          "property_id": 3,
+          "rate": 400,
+          "start_date": "2018-10-27 00:00:00",
+          "end_date": "2018-11-02 00:00:00"
+        },
+        {
+          "id": 172,
+          "property_id": 3,
+          "rate": 370,
+          "start_date": "2018-11-03 00:00:00",
+          "end_date": "2018-11-09 00:00:00"
+        },
+        {
+          "id": 176,
+          "property_id": 3,
+          "rate": 370,
+          "start_date": "2018-11-10 00:00:00",
+          "end_date": "2018-11-16 00:00:00"
+        },
+        {
+          "id": 180,
+          "property_id": 3,
+          "rate": 370,
+          "start_date": "2018-11-17 00:00:00",
+          "end_date": "2018-11-23 00:00:00"
+        },
+        {
+          "id": 184,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2018-11-24 00:00:00",
+          "end_date": "2018-11-30 00:00:00"
+        },
+        {
+          "id": 188,
+          "property_id": 3,
+          "rate": 370,
+          "start_date": "2018-12-01 00:00:00",
+          "end_date": "2018-12-07 00:00:00"
+        },
+        {
+          "id": 192,
+          "property_id": 3,
+          "rate": 360,
+          "start_date": "2018-12-08 00:00:00",
+          "end_date": "2018-12-14 00:00:00"
+        },
+        {
+          "id": 196,
+          "property_id": 3,
+          "rate": 365,
+          "start_date": "2018-12-15 00:00:00",
+          "end_date": "2018-12-21 00:00:00"
+        },
+        {
+          "id": 200,
+          "property_id": 3,
+          "rate": 365,
+          "start_date": "2018-12-22 00:00:00",
+          "end_date": "2018-12-28 00:00:00"
+        },
+        {
+          "id": 204,
+          "property_id": 3,
+          "rate": 365,
+          "start_date": "2018-12-29 00:00:00",
+          "end_date": "2019-01-04 00:00:00"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "site_id": 1,
+      "name": "Nuthatch",
+      "tagline": "A Three Bedroom Lodge with un spoilt views over Exmoor and being meters from Mystery lake make this the ideal location if you want to watch the Kingfishers and other wild life in the close vicinity of the lodge.",
+      "overview_text": "You don't have to be an angler to appreciate the beautiful views from this Lodge. Positioned on the edge of Specimen Lake it commands views over the Lakes and breathtaking views over Exmoor. If you enjoy wild life you have found the ideal location for a peace and tranquility holiday.\n                All lodges have smoke detectors, fire extinguishers, fire blankets and all fitted with carbon monoxide gas alarms. The drinking water at South Combe Waters is fresh natural spring water supplied via a bore hole.",
+      "features_text": "<strong>Bedrooms</strong>: One double bedroom and two single bedrooms with one bed in each.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
+      "slug": "nuthatch",
+      "description": "Nuthatch Lodge is located above Mystery Lake and is nestled in our woodland area.  Facing west means you have a gorgeous sunset view. With one double bed and one single bed Nuthatch is a perfect rural retreat. Nuthatch is a favourite with our guests and is always in high demand.",
+      "features": null,
+      "no_of_bedrooms": 2,
+      "no_sleeps": 3,
+      "max_occupancy": 3,
+      "active": 1,
+      "image_url": "https://c1.staticflickr.com/5/4479/26169203169_7cf033a28e_h.jpg",
+      "created_at": "2017-12-11 12:42:39",
+      "updated_at": "2017-12-11 12:42:39",
+      "tariffs": [
+        {
+          "id": 4,
+          "property_id": 4,
+          "rate": 460,
+          "start_date": "2017-09-01 00:00:00",
+          "end_date": "2017-09-30 00:00:00"
+        },
+        {
+          "id": 5,
+          "property_id": 4,
+          "rate": 460,
+          "start_date": "2017-09-01 00:00:00",
+          "end_date": "2017-09-30 00:00:00"
+        },
+        {
+          "id": 9,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2017-10-01 00:00:00",
+          "end_date": "2017-10-31 00:00:00"
+        },
+        {
+          "id": 13,
+          "property_id": 4,
+          "rate": 370,
+          "start_date": "2017-11-01 00:00:00",
+          "end_date": "2017-11-30 00:00:00"
+        },
+        {
+          "id": 17,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2017-12-01 00:00:00",
+          "end_date": "2017-12-31 00:00:00"
+        },
+        {
+          "id": 21,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2018-01-01 00:00:00",
+          "end_date": "2018-01-31 00:00:00"
+        },
+        {
+          "id": 25,
+          "property_id": 4,
+          "rate": 365,
+          "start_date": "2018-02-01 00:00:00",
+          "end_date": "2018-03-02 00:00:00"
+        },
+        {
+          "id": 29,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2018-03-03 00:00:00",
+          "end_date": "2018-03-09 00:00:00"
+        },
+        {
+          "id": 33,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2018-03-10 00:00:00",
+          "end_date": "2018-03-16 00:00:00"
+        },
+        {
+          "id": 37,
+          "property_id": 4,
+          "rate": 380,
+          "start_date": "2018-03-17 00:00:00",
+          "end_date": "2018-03-23 00:00:00"
+        },
+        {
+          "id": 41,
+          "property_id": 4,
+          "rate": 380,
+          "start_date": "2018-03-24 00:00:00",
+          "end_date": "2018-03-30 00:00:00"
+        },
+        {
+          "id": 45,
+          "property_id": 4,
+          "rate": 380,
+          "start_date": "2018-03-31 00:00:00",
+          "end_date": "2018-04-06 00:00:00"
+        },
+        {
+          "id": 49,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-04-07 00:00:00",
+          "end_date": "2018-04-13 00:00:00"
+        },
+        {
+          "id": 53,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-04-14 00:00:00",
+          "end_date": "2018-04-20 00:00:00"
+        },
+        {
+          "id": 57,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-04-21 00:00:00",
+          "end_date": "2018-04-27 00:00:00"
+        },
+        {
+          "id": 61,
+          "property_id": 4,
+          "rate": 410,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 65,
+          "property_id": 4,
+          "rate": 410,
+          "start_date": "2018-04-28 00:00:00",
+          "end_date": "2018-05-04 00:00:00"
+        },
+        {
+          "id": 69,
+          "property_id": 4,
+          "rate": 410,
+          "start_date": "2018-05-05 00:00:00",
+          "end_date": "2018-05-11 00:00:00"
+        },
+        {
+          "id": 73,
+          "property_id": 4,
+          "rate": 410,
+          "start_date": "2018-05-12 00:00:00",
+          "end_date": "2018-05-18 00:00:00"
+        },
+        {
+          "id": 77,
+          "property_id": 4,
+          "rate": 410,
+          "start_date": "2018-05-19 00:00:00",
+          "end_date": "2018-05-25 00:00:00"
+        },
+        {
+          "id": 81,
+          "property_id": 4,
+          "rate": 505,
+          "start_date": "2018-05-26 00:00:00",
+          "end_date": "2018-06-01 00:00:00"
+        },
+        {
+          "id": 85,
+          "property_id": 4,
+          "rate": 510,
+          "start_date": "2018-06-02 00:00:00",
+          "end_date": "2018-06-08 00:00:00"
+        },
+        {
+          "id": 89,
+          "property_id": 4,
+          "rate": 510,
+          "start_date": "2018-06-09 00:00:00",
+          "end_date": "2018-06-15 00:00:00"
+        },
+        {
+          "id": 93,
+          "property_id": 4,
+          "rate": 510,
+          "start_date": "2018-06-16 00:00:00",
+          "end_date": "2018-06-22 00:00:00"
+        },
+        {
+          "id": 97,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-06-23 00:00:00",
+          "end_date": "2018-06-29 00:00:00"
+        },
+        {
+          "id": 101,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-06-30 00:00:00",
+          "end_date": "2018-07-06 00:00:00"
+        },
+        {
+          "id": 105,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-07-07 00:00:00",
+          "end_date": "2018-07-13 00:00:00"
+        },
+        {
+          "id": 109,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-07-14 00:00:00",
+          "end_date": "2018-07-20 00:00:00"
+        },
+        {
+          "id": 113,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-07-21 00:00:00",
+          "end_date": "2018-07-27 00:00:00"
+        },
+        {
+          "id": 117,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-07-28 00:00:00",
+          "end_date": "2018-08-03 00:00:00"
+        },
+        {
+          "id": 121,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-08-04 00:00:00",
+          "end_date": "2018-08-10 00:00:00"
+        },
+        {
+          "id": 125,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 129,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-08-11 00:00:00",
+          "end_date": "2018-08-17 00:00:00"
+        },
+        {
+          "id": 133,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-08-25 00:00:00",
+          "end_date": "2018-08-31 00:00:00"
+        },
+        {
+          "id": 137,
+          "property_id": 4,
+          "rate": 560,
+          "start_date": "2018-09-01 00:00:00",
+          "end_date": "2018-09-07 00:00:00"
+        },
+        {
+          "id": 141,
+          "property_id": 4,
+          "rate": 460,
+          "start_date": "2018-09-08 00:00:00",
+          "end_date": "2018-09-14 00:00:00"
+        },
+        {
+          "id": 145,
+          "property_id": 4,
+          "rate": 460,
+          "start_date": "2018-09-15 00:00:00",
+          "end_date": "2018-09-21 00:00:00"
+        },
+        {
+          "id": 149,
+          "property_id": 4,
+          "rate": 440,
+          "start_date": "2018-09-22 00:00:00",
+          "end_date": "2018-09-28 00:00:00"
+        },
+        {
+          "id": 153,
+          "property_id": 4,
+          "rate": 440,
+          "start_date": "2018-09-29 00:00:00",
+          "end_date": "2018-10-05 00:00:00"
+        },
+        {
+          "id": 157,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 161,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-10-06 00:00:00",
+          "end_date": "2018-10-12 00:00:00"
+        },
+        {
+          "id": 165,
+          "property_id": 4,
+          "rate": 405,
+          "start_date": "2018-10-20 00:00:00",
+          "end_date": "2018-10-26 00:00:00"
+        },
+        {
+          "id": 169,
+          "property_id": 4,
+          "rate": 400,
+          "start_date": "2018-10-27 00:00:00",
+          "end_date": "2018-11-02 00:00:00"
+        },
+        {
+          "id": 173,
+          "property_id": 4,
+          "rate": 370,
+          "start_date": "2018-11-03 00:00:00",
+          "end_date": "2018-11-09 00:00:00"
+        },
+        {
+          "id": 177,
+          "property_id": 4,
+          "rate": 370,
+          "start_date": "2018-11-10 00:00:00",
+          "end_date": "2018-11-16 00:00:00"
+        },
+        {
+          "id": 181,
+          "property_id": 4,
+          "rate": 370,
+          "start_date": "2018-11-17 00:00:00",
+          "end_date": "2018-11-23 00:00:00"
+        },
+        {
+          "id": 185,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2018-11-24 00:00:00",
+          "end_date": "2018-11-30 00:00:00"
+        },
+        {
+          "id": 189,
+          "property_id": 4,
+          "rate": 370,
+          "start_date": "2018-12-01 00:00:00",
+          "end_date": "2018-12-07 00:00:00"
+        },
+        {
+          "id": 193,
+          "property_id": 4,
+          "rate": 360,
+          "start_date": "2018-12-08 00:00:00",
+          "end_date": "2018-12-14 00:00:00"
+        },
+        {
+          "id": 197,
+          "property_id": 4,
+          "rate": 365,
+          "start_date": "2018-12-15 00:00:00",
+          "end_date": "2018-12-21 00:00:00"
+        },
+        {
+          "id": 201,
+          "property_id": 4,
+          "rate": 365,
+          "start_date": "2018-12-22 00:00:00",
+          "end_date": "2018-12-28 00:00:00"
+        },
+        {
+          "id": 205,
+          "property_id": 4,
+          "rate": 365,
+          "start_date": "2018-12-29 00:00:00",
+          "end_date": "2019-01-04 00:00:00"
+        }
+      ]
+    }
+  ]
