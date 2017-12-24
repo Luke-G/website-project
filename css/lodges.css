@@ -25,6 +25,7 @@ body {
 
 .lodge-view {
   display: flex;  
+  font-family: 'Open Sans', sans-serif;
 }
 
 .flex-left {
@@ -44,6 +45,7 @@ body {
 
 .lodge-name {
   font-size: 1.6em;
+  font-weight: 400;
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
@@ -75,15 +77,23 @@ body {
   height: 100%;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 h3 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.2em;
-  padding-bottom: 8px;
+  padding-bottom: 14px;
+}
+
+h6 {
+  font-weight: 500;
 }
 
 .about-stay p {
   text-align: justify;
-  padding-bottom: 8px;
+  padding-bottom: 14px;
   font-weight: 300;
 }
 
@@ -93,4 +103,8 @@ h3 {
 
 .lodge-capacity {
   margin-bottom: 1em;
+}
+
+i {
+  font-style: normal;
 }
