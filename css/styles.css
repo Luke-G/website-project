@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Cabin';
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li:first-child {
+  float: left;
+  font-weight: 700;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;    
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.selected {
+  background-color: #fff;
+  color: black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;  
+}
+
+#welcome {
+  background-image: url(http://southcombewaters.co.uk/img/DSCF2232.JPG);
+}
+
+#intro {
+  background-image: url('https://c1.staticflickr.com/5/4491/26169202449_0a5d5de72f_h.jpg');
+}
+
+#lakes {
+  background-image: url(http://southcombewaters.co.uk/img/sunset1-min.jpg);
+}
+
+.welcome {
+  margin-top: 45vh;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 20px black;    
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.welcome h2 {
+  font-size: 26px;
+  letter-spacing: 28px;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  margin-bottom: 36px;  
+}
+
+.btn {
+  color: #fff;    
+  border: 2px solid #fff;
+  text-decoration: none;
+  padding: 0.75em 1.5em 0.75em 1.5em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+  transition: 100ms ease-in-out;
+}
+
+.text {
+  width: 50vw;
+  height: auto;
+  background: rgba(0, 0, 0, 0.58);
+  padding: 2em;
+  color: #f4f5f6;  
+  text-shadow: 2px 2px 20px black;     
+}
+
+.text p {
+  text-shadow: 2px 2px 20px black;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.text h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container {
+  padding: 10em;  
+  width: 100%;
+}
+
+.flex-end {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.bottom {
+  margin-bottom: auto;
+}
+
+.heading {
+  font-size: 2.25em;
+  margin-bottom: 0.5em;
+}
+
