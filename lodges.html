@@ -11,16 +11,31 @@
   </head>
 
   <body>
-    <nav>
+    <!-- Full size navigation menu -->
+    <nav id="main">
       <ul>
-        <li><a href="http://southcombewaters.co.uk">South Combe Waters</a></li>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">South Combe Waters</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="selected"><a href="#">Lodges</a></li>
         <li><a href="fishing.html">Fishing</a></li>
         <li><a href="info.html">Information</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="booking.html">My Booking</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile navigation -->
+    <nav id="mobile">
+      <a id="mobile-show">Show/Hide</a>                  
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lodges.html">Lodges</a></li>
+        <li><a href="fishing.html">Fishing</a></li>
+        <li><a href="info.html">Information</a></li>  
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="booking.html">My Booking</a></li>        
       </ul>
     </nav>
 
@@ -101,5 +116,14 @@
 
   <footer>
     <script src="js/lodges.js"></script>
+    <script>
+      let mobileNavBtn = document.getElementById('mobile-show');
+      let mobileNavMenu = document.getElementById('mobile');
+
+      mobileNavBtn.addEventListener(function() {
+        mobileNavMenu.style.display = 'block';
+      });
+
+    </script>
   </footer>
 </html>

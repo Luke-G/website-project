@@ -108,3 +108,34 @@ h6 {
 i {
   font-style: normal;
 }
+
+
+#mobile {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .lodge-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-right h2 {
+    text-align: center;
+  }
+
+  /* Navigation bar */
+  #main {
+    display: none;
+  }
+
+  #mobile {
+    display: flex;
+  }
+
+  #mobile ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}
