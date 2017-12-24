@@ -1,0 +1,82 @@
+#lodge-photo {
+  background-attachment: fixed;
+  width: 100vw;
+  height: 40vh;
+  min-height: 40vh;
+  background-position: 50% 170%;
+  background-size: cover;
+  margin: 0 auto;    
+}
+
+body {
+  background: #80808047;
+  color: #484848;
+  font-weight: 100 !important;
+}
+
+.container {
+  margin: 4em;
+  padding: 1em;
+  width: auto;
+  background: #fff;
+}
+
+.lodge-view {
+  display: flex;  
+}
+
+.flex-left {
+  flex: 50%;
+  padding: 2em;
+}
+
+.flex-right {
+  flex: 50%;
+  padding: 2em;
+}
+
+.lodge-name {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+
+.feature {
+  display: flex;
+  padding: 8px;
+  width: 100%;
+}
+
+.feature-item, .feature-description {
+  padding: 8px;  
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  height: 100px;
+  padding: 8px;
+}
+
+.gallery-image img {
+  height: 100%;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-bottom: 8px;
+}
+
+.about-stay p {
+  text-align: justify;
+  padding-bottom: 8px;
+  font-weight: 300;
+}
+
+.lodge-description {
+  margin-bottom: 1em;
+}
