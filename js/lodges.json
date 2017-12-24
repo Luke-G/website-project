@@ -406,7 +406,28 @@
       "features_text": "<strong>Bedrooms</strong>: One king sized bedroom and two twin bedrooms with single beds.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
       "slug": "badgers-retreat",
       "description": "Situated steps away from both Mystery and Specimen Lake, Badgers Retreat has an elevated view of the stunning countryside and lakes alike. Badgers Retreat has one king sized room and two twin rooms with two single beds in each, spacious living/dining area, kitchen and walk in shower. A stunning lodge to watch the Kingfishers and other wild life in the close vicinity of the lodge.",
-      "features": null,
+      "features": [
+        {
+          "item": "<i class='material-icons'>hotel</i>",
+          "description": "One king sized bedroom and two twin bedrooms with single beds."
+        },
+        {
+          "item": "<i class='material-icons'>restaurant</i>",
+          "description": "The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings. There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner."
+        },
+        {
+          "item": "<i class='material-icons'>event_seat</i>",
+          "description": "The lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious. There is also a LCD Television, Dvd Player and a Playstation games console."
+        },
+        {
+          "item": "<i class='material-icons'>smoke_free</i>",
+          "description": "We have a No Smoking rule in all lodges."
+        },
+        {
+          "item": "<i class='material-icons'>account_balance</i>",
+          "description": "We require a cash deposit of £50 on arrival to cover any incidental damages and breakages that may occur. This is returned to you on the day you leave once we have inspected the lodges."
+        }  
+      ],
       "no_of_bedrooms": 3,
       "no_sleeps": 6,
       "max_occupancy": 6,
@@ -783,7 +804,28 @@
       "features_text": "<strong>Bedrooms</strong>: One double bedroom and two single bedrooms with one bed in each.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
       "slug": "dormouse",
       "description": "Dormouse is cosy, warm and the ideal lodge to relax and unwind in after a long days fishing. With one double bed and one single bed, Dormouse is located above Mystery Lake with its own decking area to absorb the views and watch the wildlife from.",
-      "features": null,
+      "features": [
+        {
+          "item": "<i class='material-icons'>hotel</i>",
+          "description": "One king sized bedroom and two twin bedrooms with single beds."
+        },
+        {
+          "item": "<i class='material-icons'>restaurant</i>",
+          "description": "The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings. There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner."
+        },
+        {
+          "item": "<i class='material-icons'>event_seat</i>",
+          "description": "The lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious. There is also a LCD Television, Dvd Player and a Playstation games console."
+        },
+        {
+          "item": "<i class='material-icons'>smoke_free</i>",
+          "description": "We have a No Smoking rule in all lodges."
+        },
+        {
+          "item": "<i class='material-icons'>account_balance</i>",
+          "description": "We require a cash deposit of £50 on arrival to cover any incidental damages and breakages that may occur. This is returned to you on the day you leave once we have inspected the lodges."
+        }  
+      ],
       "no_of_bedrooms": 2,
       "no_sleeps": 3,
       "max_occupancy": 3,
@@ -1160,7 +1202,28 @@
       "features_text": "<strong>Bedrooms</strong>: One double bedroom and two single bedrooms with one bed in each.<br/> \n                <strong>Kitchen</strong>: The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings.<br/>\n                <strong>Dining</strong>: There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner.<br/>\n                <strong>Lounge</strong>: The Lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious.<br/>\n                <strong>Utilities</strong>: Gas and Electricity is inclusive in the Holiday cost.<br/>\n                <strong>Smoking</strong>: We have a No Smoking rule in all Lodges.<br/>\n                <strong>Patio Area</strong>: All Lodges have there own patio areas with tables, chairs and barbeques.<br/>\n                <strong>Television</strong>: LCD Television, Dvd Player and a Playstation games console.<br/>\n                <strong>Deposit</strong>: A returnable security deposit of £50.00 is required payable on your arrival, we will return the Security Deposit once the property has been inspected at the end of your rental period.<br/>\n                <strong>Tackle Shed</strong>: All Lodges have there own fishing tackle sheds.<br/>\n                <strong>Bathroom</strong>: The Bathroom is on the ground floor with a corner bath and an over bath shower.",
       "slug": "nuthatch",
       "description": "Nuthatch Lodge is located above Mystery Lake and is nestled in our woodland area.  Facing west means you have a gorgeous sunset view. With one double bed and one single bed Nuthatch is a perfect rural retreat. Nuthatch is a favourite with our guests and is always in high demand.",
-      "features": null,
+      "features": [
+        {
+          "item": "<i class='material-icons'>hotel</i>",
+          "description": "One king sized bedroom and two twin bedrooms with single beds."
+        },
+        {
+          "item": "<i class='material-icons'>restaurant</i>",
+          "description": "The kitchen is equipped with electric oven, ceramic hob, microwave and fridge-freezer, and is finished with quality fixtures and fittings. There is a dedicated dining area to enjoy a meal with the family, or a romantic dinner."
+        },
+        {
+          "item": "<i class='material-icons'>event_seat</i>",
+          "description": "The lounge area has a comfortable leather sofa and arm chair. The open plan nature combined with generous quantities of genuine light from the patio doors and windows means that the Lodge always feels spacious. There is also a LCD Television, Dvd Player and a Playstation games console."
+        },
+        {
+          "item": "<i class='material-icons'>smoke_free</i>",
+          "description": "We have a No Smoking rule in all lodges."
+        },
+        {
+          "item": "<i class='material-icons'>account_balance</i>",
+          "description": "We require a cash deposit of £50 on arrival to cover any incidental damages and breakages that may occur. This is returned to you on the day you leave once we have inspected the lodges."
+        }  
+      ],
       "no_of_bedrooms": 2,
       "no_sleeps": 3,
       "max_occupancy": 3,
