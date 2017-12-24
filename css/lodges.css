@@ -15,11 +15,12 @@ body {
 }
 
 .container {
-  margin: 4em;
+  margin: 0 auto;  
   padding: 1em;
   width: auto;
   background: #fff;
   margin-top: -1em;
+  max-width: 1200px;
 }
 
 .lodge-view {
