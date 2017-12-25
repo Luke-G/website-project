@@ -1,4 +1,4 @@
-// Strict mode to ensure good coding standards are used
+// Strict mode to ensure good coding standards are used and syntax is valid
 'use strict';
 
 const url = 'js/lodges.json';  

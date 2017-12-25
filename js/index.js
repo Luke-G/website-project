@@ -1,3 +1,5 @@
+'use strict';
+
 // JavaScript to enable smooth scrolling on button clicks
 
 let learnMoreBtn = document.getElementById('learnMoreBtn');
