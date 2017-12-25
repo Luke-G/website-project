@@ -41,6 +41,9 @@ body {
 .flex-right h2 {
   text-align: right;
   text-transform: uppercase;
+  background: #2e4c2e;
+  padding: 0.5em;
+  color: #fff;
 }
 
 .lodge-name {
@@ -65,7 +68,8 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
   flex-direction: row-reverse;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  border: 1px solid #2e4c2e;
 }
 
 .gallery-image {
@@ -90,6 +94,15 @@ h3 {
 h6 {
   font-weight: 500;
 }
+
+.about-stay-content {
+  padding: 0.5em;
+}
+
+.about-stay {
+  border: 1px solid #2e4c2e;
+}
+
 
 .about-stay p {
   text-align: justify;
