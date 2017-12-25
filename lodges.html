@@ -12,32 +12,34 @@
 
   <body>
     <!-- Full size navigation menu -->
-    <nav id="main">
-      <ul>
-        <li><a href="index.html">South Combe Waters</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li class="selected"><a href="#">Lodges</a></li>
-        <li><a href="fishing.html">Fishing</a></li>
-        <li><a href="info.html">Information</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="booking.html">My Booking</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav id="main">
+        <ul>
+          <li><a href="index.html">South Combe Waters</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="selected"><a href="#">Lodges</a></li>
+          <li><a href="fishing.html">Fishing</a></li>
+          <li><a href="info.html">Information</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">My Booking</a></li>
+        </ul>
+      </nav>
 
-    <!-- Mobile navigation -->
-    <nav id="mobile">
-      <a id="mobile-show">Show/Hide</a>                  
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="lodges.html">Lodges</a></li>
-        <li><a href="fishing.html">Fishing</a></li>
-        <li><a href="info.html">Information</a></li>  
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="booking.html">My Booking</a></li>        
-      </ul>
-    </nav>
+      <!-- Mobile navigation -->
+      <nav id="mobile">
+        <a id="mobile-show">Show/Hide</a>                  
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lodges.html">Lodges</a></li>
+          <li><a href="fishing.html">Fishing</a></li>
+          <li><a href="info.html">Information</a></li>  
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">My Booking</a></li>        
+        </ul>
+      </nav>
+    </header>
 
     <section id="lodge-photo"></section>
 
@@ -53,19 +55,13 @@
       </section>
       <section class="lodge-view">
         <div class="flex-left">
+          <!-- Lodge details - values come from JSON -->
           <div class="lodge-overview">
-            <div class="lodge-name">
-              Badgers Retreat
-            </div>
-            <div class="lodge-description">
-              Situated steps away from both Mystery and Specimen Lake, Badgers Retreat has an elevated view of the 
-              stunning countryside and lakes alike. Badgers Retreat has one king sized room and two twin rooms with
-              two single beds in each, spacious living/dining area, kitchen and walk in shower. A stunning lodge 
-              to watch the Kingfishers and other wild life in the close vicinity of the lodge.            
-            </div>
+            <div class="lodge-name"></div>
+            <div class="lodge-description"></div>
             <div class="lodge-capacity">
-              Sleeps: <i id="sleep-count">6</i>
-              Beds: <i id="bed-count">3</i>
+              Sleeps: <i id="sleep-count"></i>
+              Beds: <i id="bed-count"></i>
             </div>
 
             <!-- Lodge Features -->

@@ -3,6 +3,7 @@
 
 const url = 'js/lodges.json';  
 
+// Get the JSON file then iterate until the requested lodge object is found
 function selectLodge(name) {
   fetch(url).then(response => response.json())
   .then(
@@ -46,11 +47,15 @@ function selectLodge(name) {
         // Set the page elements to show lodge details from JSON file
         let lodgeNameVal = document.getElementsByClassName('lodge-name')[0];
         let lodgeDescriptionVal = document.getElementsByClassName('lodge-description')[0];
-        let sectionLodgePhoto = document.getElementById("lodge-photo");
-        
+        let sectionLodgePhoto = document.getElementById('lodge-photo');
+        let sleepCapacityVal = document.getElementById('sleep-count');
+        let bedCountVal = document.getElementById('bed-count');
+
         lodgeNameVal.innerHTML = lodge.name;
         lodgeDescriptionVal.innerHTML = lodge.description;
-        sectionLodgePhoto.style.backgroundImage = 'url("' + lodge.image_url + '")';  
+        sectionLodgePhoto.style.backgroundImage = 'url("' + lodge.image_url + '")'; 
+        sleepCapacityVal.innerHTML = lodge.no_sleeps; 
+        bedCountVal.innerHTML = lodge.no_of_bedrooms;
       }
     })
   )
