@@ -8,6 +8,36 @@ function selectLodge(name) {
   fetch(url).then(response => response.json())
   .then(
     response => response.forEach(function(lodge) {
+      // Add each lodge to 'other lodges' element
+
+      if (lodge.name != name) {
+        let lodgePreviewParentDiv = document.getElementById('lodge-preview-parent');
+
+        let lodgePreviewDiv = document.createElement('div');
+        lodgePreviewDiv.className = 'lodge-preview';
+
+        let lodgePreviewHeading = document.createElement('h3');
+        lodgePreviewHeading.innerHTML = lodge.name;
+
+        let lodgePreviewImage = document.createElement('img');
+        lodgePreviewImage.src = lodge.image_url;
+
+        let lodgePreviewDesc = document.createElement('div');
+        lodgePreviewDesc.className = 'lodge-preview-desc';
+        lodgePreviewDesc.innerHTML = lodge.description;
+
+        lodgePreviewDiv.appendChild(lodgePreviewHeading);
+        lodgePreviewDiv.appendChild(lodgePreviewImage);
+        lodgePreviewDiv.appendChild(lodgePreviewDesc);
+
+        // Add event listener to link to lodge page
+        lodgePreviewDiv.addEventListener('click', function() {
+          window.location.href = 'lodges.html?l=' + lodge.name;
+        });
+
+        lodgePreviewParentDiv.appendChild(lodgePreviewDiv);
+      }
+
       if (lodge.name == name) {
         // Iterate through lodge features and output onto page
         lodge.features.forEach(function(feature) {

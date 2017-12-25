@@ -184,3 +184,33 @@ i {
     max-width: 500px;
   }
 }
+
+.lodge-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+}
+
+.lodge-preview {
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+}
+
+.lodge-preview:hover {
+  cursor: pointer;
+}
+
+.lodge-preview h3 {
+  text-transform: uppercase;
+}
+
+.lodge-preview img {
+  width: 30%;
+}
+
+.lodge-preview-desc {
+  float: right;
+  width: 65%;
+  margin-left: 1em;
+}
