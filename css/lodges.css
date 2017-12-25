@@ -138,4 +138,8 @@ i {
     flex-direction: column;
     text-align: left;
   }
+
+  .gallery {
+    max-width: 500px;
+  }
 }
