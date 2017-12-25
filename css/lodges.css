@@ -75,6 +75,7 @@ body {
 .gallery-image {
   height: 100px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .gallery-image img {
@@ -213,4 +214,20 @@ i {
   float: right;
   width: 65%;
   margin-left: 1em;
+}
+
+.gallery-fs-image {
+  position: absolute;
+  height: 100vh;
+  min-height: 100vh;
+  width: 97.8vw;
+  background: #000000b8;
+  text-align: center;
+  padding: 1em;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.gallery-fs-image img {
+  height: 95vh;
 }

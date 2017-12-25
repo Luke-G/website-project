@@ -41,6 +41,10 @@
       </nav>
     </header>
 
+    <div id="full-screen-gallery" class="gallery-fs-image">
+      <img id="full-screen-gallery-img" src="//c1.staticflickr.com/5/4458/26169201189_586247dbba_h.jpg">
+    </div>
+
     <section id="lodge-photo"></section>
 
     <div class="container">
@@ -49,7 +53,6 @@
         <input type="text" placeholder="Check Out">
         <select id="guest-selector">
           <option selected disabled>Guests</option>
-          <option value="1">1</option>  
         </select>>
         <a href="javascript:void(0)" id="search">Search</a>
       </section>
@@ -116,6 +119,16 @@
         mobileNavMenu.style.display = 'block';
       });*/
 
+
+      let fullScreenGallery = document.getElementById('full-screen-gallery');
+      let fullScreenGalleryImg = document.getElementById('full-screen-gallery-img');
+
+      // Hide gallery on click if open
+      fullScreenGalleryImg.addEventListener('click', function() {
+        if (fullScreenGallery.style.visibility == 'visible') {
+          fullScreenGallery.style.visibility = 'hidden';
+        }
+      });
     </script>
   </footer>
 </html>

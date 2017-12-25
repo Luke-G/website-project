@@ -71,6 +71,15 @@ function selectLodge(name) {
           imageDiv.className = 'gallery-image';
           imageDiv.innerHTML = '<img src="' + image.url + '">';
 
+          // Add event listener to set gallery image and show full screen on click
+          imageDiv.addEventListener('click', function() {
+            let fullScreenGallery = document.getElementById('full-screen-gallery');
+            let fullScreenGalleryImg = document.getElementById('full-screen-gallery-img');
+
+            fullScreenGalleryImg.src = image.url;
+            fullScreenGallery.style.visibility = 'visible';
+          });
+
           galleryParentDiv.appendChild(imageDiv);
         });
         
