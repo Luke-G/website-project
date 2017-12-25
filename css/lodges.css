@@ -16,7 +16,7 @@ body {
 
 .container {
   margin: 0 auto;  
-  padding: 1em;
+  padding: 0;
   width: auto;
   background: #fff;
   margin-top: -1em;
@@ -103,6 +103,34 @@ h6 {
 
 .lodge-capacity {
   margin-bottom: 1em;
+}
+
+
+.booking-container {
+  background-color: #2e4c2e;
+  padding: 0.5em;
+}
+
+.booking-container input {
+  padding: 1em;
+  width: 45%;
+  margin-right: 0.25em;
+}
+
+#guest-selector {
+  width: 15%;
+  height: 40px;
+  line-height: 40px;
+}
+
+#search {
+  width: 15%;
+  background: #fff;
+  color: #2e4c2e;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 i {

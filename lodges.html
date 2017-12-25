@@ -42,6 +42,15 @@
     <section id="lodge-photo"></section>
 
     <div class="container">
+      <section class="booking-container">
+        <input type="text" placeholder="Check In">
+        <input type="text" placeholder="Check Out">
+        <select id="guest-selector">
+          <option selected disabled>Guests</option>
+          <option value="1">1</option>  
+        </select>>
+        <a href="javascript:void(0)" id="search">Search</a>
+      </section>
       <section class="lodge-view">
         <div class="flex-left">
           <div class="lodge-overview">
@@ -66,26 +75,7 @@
 
         <div class="flex-right">
           <h2>Take a Look</h2>
-          <div class="gallery">
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-            <div class="gallery-image">
-              <img src="https://c1.staticflickr.com/5/4446/24093769388_a57e44e0ee_h.jpg">
-            </div>
-          </div><!-- ./gallery -->
+          <div id="gallery" class="gallery"></div><!-- ./gallery -->
 
           <div class="about-stay">
             <h2>About Your Stay</h2>
@@ -120,9 +110,9 @@
       let mobileNavBtn = document.getElementById('mobile-show');
       let mobileNavMenu = document.getElementById('mobile');
 
-      mobileNavBtn.addEventListener(function() {
+      /*mobileNavBtn.addEventListener(function() {
         mobileNavMenu.style.display = 'block';
-      });
+      });*/
 
     </script>
   </footer>

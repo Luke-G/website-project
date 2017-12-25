@@ -1,3 +1,6 @@
+// Strict mode to ensure good coding standards are used
+'use strict';
+
 const url = 'js/lodges.json';  
 
 function selectLodge(name) {
@@ -10,14 +13,14 @@ function selectLodge(name) {
           let featuresParentDiv = document.getElementsByClassName('lodge-features')[0];
 
           // Create .feature div with .feature-item and .feature-description inside
-          featureDiv = document.createElement('div');
+          let featureDiv = document.createElement('div');
           featureDiv.className = 'feature';
 
-          featureItem = document.createElement('div');
+          let featureItem = document.createElement('div');
           featureItem.className = 'feature-item';
           featureItem.innerHTML = feature.item;
 
-          featureDesc = document.createElement('div');
+          let featureDesc = document.createElement('div');
           featureDesc.className = 'feature-description';
           featureDesc.innerHTML = feature.description;
 
@@ -26,6 +29,18 @@ function selectLodge(name) {
 
           // Append the new .feature div to the parent container
           featuresParentDiv.appendChild(featureDiv);
+        });
+
+        // Add the lodge images to the page gallery
+        lodge.images.forEach(function(image) {
+          let galleryParentDiv = document.getElementById('gallery');
+
+          // Create .gallery-image div for each image
+          let imageDiv = document.createElement('div');
+          imageDiv.className = 'gallery-image';
+          imageDiv.innerHTML = '<img src="' + image.url + '">';
+
+          galleryParentDiv.appendChild(imageDiv);
         });
         
         // Set the page elements to show lodge details from JSON file
@@ -47,12 +62,7 @@ var base_url = new URL(window.location.href);
 var lodgeParam = base_url.searchParams.get("l");
 
 // Select the lodge from JSON if URL param is valid, else default to 'Kingfisher'
-let lodges = [
-  'Kingfisher',
-  'Badgers Retreat',
-  'Nuthatch',
-  'Dormouse'
-];
+let lodges = ['Kingfisher', 'Badgers Retreat', 'Nuthatch', 'Dormouse'];
 
 if (lodges.includes(lodgeParam)) {
   selectLodge(lodgeParam);
