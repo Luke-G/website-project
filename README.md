@@ -24,3 +24,12 @@ This website has been created using:
 * If user wishes to book, they are directed to a booking and payment form
 
 There are more ways to navigate the site, e.g. navigation bar, however the site was designed so that it is easy to get from the home page all the way to completing the booking process, with minimal user interaction needed.
+
+### Responsive Web Design
+The website looks best on a screen with a width higher than 950px.
+
+When the screen is below 950px, the navigation menu is removed and a small tab is added to the top of the page. This is useful for mobile and tablet devices to access the navigation menu without it interfering with the rest of the page. 
+
+On the lodge page (lodges.html), the two columns with 50% width move to 100% width and become independent blocks for easy reading on smaller devices. Additionally, the two vertical blocks become 100% width horizontal blocks.
+
+When the screen width shrinks below 540px, the input boxes for the booking form become 100% width to allow easy accessibility on mobile devices, and the website maintains full functionality and access to the features, catering for all users.
