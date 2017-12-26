@@ -125,16 +125,18 @@ h6 {
   padding: 0.5em;
 }
 
-.booking-container input {
-  padding: 1em;
-  width: 45%;
-  margin-right: 0.25em;
-}
-
 #guest-selector {
   width: 15%;
   height: 40px;
   line-height: 40px;
+  margin-right: 0.5em;  
+}
+
+#checkin, #checkout {
+  width: 45%;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 0.5em;
 }
 
 #search {
