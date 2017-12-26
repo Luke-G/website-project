@@ -1,0 +1,81 @@
+/* CSS for mobile device compatibility */
+
+#mobile {
+  display: none;
+  visibility: hidden;
+}
+
+#mobile-show {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .booking-container {
+    flex-direction: column;
+  }
+  
+  #checkin, #checkout, #guest-selector, #search {
+    display: block;
+    width: 100vw;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .lodge-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-right h2 {
+    text-align: center;
+  }
+
+  /* Navigation bar */
+  #main {
+    display: none;
+  }
+
+  #mobile-show {
+    position: fixed;
+    top: 0;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    padding: 0.5em;
+    cursor: pointer;
+    user-select: none;      
+  }
+
+  #mobile {
+    display: block;
+    opacity: 0.9;
+    visibility: visible;
+  }
+
+  nav {
+    position: fixed;
+    top: 2em;
+    background: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    height: 49vh;
+  }
+
+  #mobile-nav {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .gallery {
+    max-width: 500px;
+  }
+
+  #lodge-photo {
+    height: 54.5vh;
+  }
+}

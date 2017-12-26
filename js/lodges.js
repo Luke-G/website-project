@@ -1,7 +1,7 @@
 // Strict mode to ensure good coding standards are used and syntax is valid
 'use strict';
 
-const url = 'js/lodges.json';  
+const url = 'js/data/lodges.json';  
 
 // Get the JSON file then iterate until the requested lodge object is found
 function selectLodge(name) {
@@ -151,7 +151,7 @@ if (lodges.includes(lodgeParam)) {
   selectLodge('Kingfisher');
 }
 
-let checkInSelector = document.getElementById('checkin');
+let checkInSelector = document.getElementById('checkin');  
 
 // Dynamically add available checkout dates. Min length of stay 7 nights and max 14
 checkInSelector.addEventListener('change', function() {
@@ -172,4 +172,16 @@ checkInSelector.addEventListener('change', function() {
 
     checkOutSelector.appendChild(checkOutOption);
   }
+});
+
+let searchBtn = document.getElementById('search');
+
+searchBtn.addEventListener('click', function() {
+  let booking = {
+    'checkin': document.getElementById('checkin').value,
+    'checkout': document.getElementById('checkout').value,
+    'guests': document.getElementById('guest-selector').value
+  };
+
+  console.log(booking);
 });

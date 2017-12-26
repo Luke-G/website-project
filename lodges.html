@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <link href="./css/styles.css" rel="stylesheet">  
     <link href="./css/lodges.css" rel="stylesheet">    
+    <link href="./css/mobile.css" rel="stylesheet">        
   </head>
 
   <body>
@@ -27,9 +28,9 @@
       </nav>
 
       <!-- Mobile navigation -->
+      <a id="mobile-show">Navigation Menu</a>                        
       <nav id="mobile">
-        <a id="mobile-show">Show/Hide</a>                  
-        <ul>
+        <ul id="mobile-nav">
           <li><a href="index.html">Home</a></li>
           <li><a href="lodges.html">Lodges</a></li>
           <li><a href="fishing.html">Fishing</a></li>
@@ -52,13 +53,13 @@
     <div class="container">
       <!-- Booking element above the main lodge view -->
       <section class="booking-container">
-        <select name="checkin" id="checkin">
+        <select name="checkin" id="checkin" required>
           <option selected disabled>Select date to checkin</option>           
         </select>
-        <select name="checkout" id="checkout">
+        <select name="checkout" id="checkout" required>
           <option selected disabled>Select date to checkout</option>            
         </select>        
-        <select id="guest-selector">
+        <select id="guest-selector" required>
           <option selected disabled>Guests</option>
         </select>
         <a href="javascript:void(0)" id="search">Search</a>
@@ -76,11 +77,10 @@
 
             <!-- Lodge Features -->
             <div class="lodge-features"></div>
-          </div><!-- ./lodge-overview -->
+          </div>
 
           <!-- View other lodges -->
           <div class="lodge-container" id="lodge-preview-parent"></div>
-
         </div><!-- ./flex-left -->
 
         <div class="flex-right">
@@ -113,21 +113,11 @@
         </div><!-- ./flex-right -->
       </section>
     </div>
-
   </body>
 
   <footer>
     <script src="js/lodges.js"></script>
     <script src="js/gallery.js"></script>
-    <script>
-      let mobileNavBtn = document.getElementById('mobile-show');
-      let mobileNavMenu = document.getElementById('mobile');
-
-      /*mobileNavBtn.addEventListener(function() {
-        mobileNavMenu.style.display = 'block';
-      });*/
-
-
-    </script>
+    <script src="js/mobile.js"></script>
   </footer>
 </html>
