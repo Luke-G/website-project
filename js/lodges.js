@@ -17,14 +17,14 @@ function selectLodge(name) {
         lodgePreviewDiv.className = 'lodge-preview';
 
         let lodgePreviewHeading = document.createElement('h3');
-        lodgePreviewHeading.innerHTML = lodge.name;
+        lodgePreviewHeading.innerText = lodge.name;
 
         let lodgePreviewImage = document.createElement('img');
         lodgePreviewImage.src = lodge.image_url;
 
         let lodgePreviewDesc = document.createElement('div');
         lodgePreviewDesc.className = 'lodge-preview-desc';
-        lodgePreviewDesc.innerHTML = lodge.description;
+        lodgePreviewDesc.innerText = lodge.description;
 
         lodgePreviewDiv.appendChild(lodgePreviewHeading);
         lodgePreviewDiv.appendChild(lodgePreviewImage);
@@ -54,7 +54,7 @@ function selectLodge(name) {
 
           let featureDesc = document.createElement('div');
           featureDesc.className = 'feature-description';
-          featureDesc.innerHTML = feature.description;
+          featureDesc.innerText = feature.description;
 
           featureDiv.appendChild(featureItem);
           featureDiv.appendChild(featureDesc);
@@ -101,11 +101,11 @@ function selectLodge(name) {
         let sleepCapacityVal = document.getElementById('sleep-count');
         let bedCountVal = document.getElementById('bed-count');
 
-        lodgeNameVal.innerHTML = lodge.name;
-        lodgeDescriptionVal.innerHTML = lodge.description;
+        lodgeNameVal.innerText = lodge.name;
+        lodgeDescriptionVal.innerText = lodge.description;
         sectionLodgePhoto.style.backgroundImage = 'url("' + lodge.image_url + '")'; 
-        sleepCapacityVal.innerHTML = lodge.no_sleeps; 
-        bedCountVal.innerHTML = lodge.no_of_bedrooms;
+        sleepCapacityVal.innerText = lodge.no_sleeps; 
+        bedCountVal.innerText = lodge.no_of_bedrooms;
 
         // Add available checkin dates
         let checkInSelector = document.getElementById('checkin');
@@ -120,8 +120,8 @@ function selectLodge(name) {
          * use of <select> dropdowns.
         */
 
-        let i = 7;        // Start at 7 to set the first available checkin date to 7 days after today
-        while (i < 37) {  // End at 37 to set the last available checkin date to within 30 days
+                                         // Start at 7 to set the first available checkin date to 7 days after today
+        for (let i = 7; i < 37; i++) {  // End at 37 to set the last available checkin date to within 30 days
           let today = new Date();
           let date = new Date(today.setDate(today.getDate() + i));          
 
@@ -129,7 +129,6 @@ function selectLodge(name) {
           dateValue.innerText = date.toDateString();
           dateValue.value = date;
           checkInSelector.appendChild(dateValue);
-          i++;
         }
         
       }
@@ -180,8 +179,45 @@ searchBtn.addEventListener('click', function() {
   let booking = {
     'checkin': document.getElementById('checkin').value,
     'checkout': document.getElementById('checkout').value,
-    'guests': document.getElementById('guest-selector').value
+    'guests': document.getElementById('guest-selector').value,
   };
 
-  console.log(booking);
-});
+  // Booking cost variable
+  let cost = 0;
+
+  // Calculate booking cost by getting tariffs from JSON file
+  fetch(url).then(response => response.json())
+  .then(
+    response => response.forEach(function(lodge) {
+      if (lodge.name == lodgeParam) {
+        // Substring calculation adapted from StackOverflow solution to convert to YYYY-MM-DD        
+        let checkin = new Date(booking.checkin).toISOString().substring(0, 10);
+        let checkout = new Date(booking.checkout).toISOString().substring(0, 10);
+        
+        // Iterate through lodge tariffs to get the rates
+        lodge.tariffs.forEach(function(tariff) {
+          // Strip out the date to common format YYYY-MM-DD
+          let startDate = tariff.start_date.substring(0, 10);
+          let endDate = tariff.end_date.substring(0, 10);
+
+          // Convert all dates from YYYY-MM-DD into objects to allow comparisons
+          let startDateObj = new Date();
+          startDateObj.setFullYear(startDate.substring(0, 4), startDate.substring(5, 6), startDate.substring(8, 10));
+
+          let endDateObj = new Date();
+          endDateObj.setFullYear(endDate.substring(0, 4), endDate.substring(5, 6), endDate.substring(8, 10));
+
+          var checkInDate = new Date();
+          checkInDate.setFullYear(checkin.substring(0, 4), checkin.substring(5, 6), checkin.substring(8, 10));
+
+          var checkOutDate = new Date();
+          checkOutDate.setFullYear(checkout.substring(0, 4), checkout.substring(5, 6), checkout.substring(8, 10));        
+          
+          // Calculate cost of the holiday
+
+        });
+      }
+    })
+  )
+  .catch(e => console.log(e))
+})
