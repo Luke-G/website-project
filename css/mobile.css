@@ -25,7 +25,7 @@
   .text {
     width: 80vw;
   }
-
+  
   .lodge-view {
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
   #mobile-show {
     position: fixed;
     top: 0;
-    display: none;    /* Hide menu by default until user opens it */
+    display: block;
     color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -55,7 +55,7 @@
   }
 
   #mobile {
-    display: block;
+    display: none;      /* Hide mobile nav by default until user opens it */
     opacity: 0.9;
     visibility: visible;
   }
