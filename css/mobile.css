@@ -55,7 +55,7 @@
   }
 
   #mobile {
-    display: none;      /* Hide mobile nav by default until user opens it */
+    display: none;
     opacity: 0.9;
     visibility: visible;
   }
