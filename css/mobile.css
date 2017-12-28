@@ -9,6 +9,20 @@
   display: none;
 }
 
+@media screen and (max-width: 340px) {
+  .page-view {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    display: block;
+    margin: 1em;
+    text-align: center;
+  }
+}
+
 /* Styles to be applied when device width is below 540px to allow the form elements to be read easily */
 @media screen and (max-width: 540px) {
   .booking-container {
@@ -19,6 +33,21 @@
     display: block;
     width: 100vw;
     margin-bottom: 0.5em;
+  }
+
+  label {
+    width: 100%;
+  }
+
+  input { 
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .flex-row {
+    flex-direction: column;
   }
 }
 
