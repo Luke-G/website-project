@@ -108,6 +108,25 @@ section {
   transition: 100ms ease-in-out;
 }
 
+.btn-fw {
+  display: block;
+  color: #fff;
+  background-color: #2e4c2e;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding: 0.5em;
+  border: 1px solid #2e4c2e;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.btn-fw:hover {
+  color: #2e4c2e;
+  background-color: #fff;
+  transition: 100ms ease-in-out;
+}
+
 .text {
   width: 50vw;
   height: auto;
@@ -135,6 +154,17 @@ section {
   width: 100%;
 }
 
+.flex-left {
+  flex: 50%;
+  padding: 2em;
+}
+
+.flex-right {
+  flex: 50%;
+  padding: 2em;
+}
+
+
 .flex-end {
   display: flex;
   align-items: flex-start;
@@ -149,4 +179,8 @@ section {
 .heading {
   font-size: 2.25em;
   margin-bottom: 0.5em;
+}
+
+i {
+  font-style: normal;
 }

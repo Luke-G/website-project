@@ -215,7 +215,7 @@ searchBtn.addEventListener('click', function() {
   let checkin = new Date(booking.checkin);
   let checkout = new Date(booking.checkout);
 
-  let nights = Date.daysBetween(new Date(checkin), new Date(checkout));
+  booking.nights = Date.daysBetween(new Date(checkin), new Date(checkout));
 
   /* Static rates used. Weekly rate would be loaded from JSON (server response).
    * The rate is divided by 7 to get a nightly rate, then multiplied by the 
@@ -225,7 +225,9 @@ searchBtn.addEventListener('click', function() {
   let weeklyRate = 420.00;
   let nightlyRate = weeklyRate / 7;
 
-  booking.cost = nightlyRate * nights;
+  booking.cost = nightlyRate * booking.nights;
+  booking.checkin = checkin.toDateString();
+  booking.checkout = checkout.toDateString();
 
   // Show booking details in quotation box
   let bookingQuoteDiv = document.getElementById('booking-quote');
@@ -236,10 +238,13 @@ searchBtn.addEventListener('click', function() {
   let bookingNightsElem = document.getElementById('booking-nights');
 
   bookingCostElem.innerHTML = "&pound;" + booking.cost.toFixed(2);
-  bookingCheckInElem.innerText = checkin.toDateString();
-  bookingCheckOutElem.innerText = checkout.toDateString();
+  bookingCheckInElem.innerText = booking.checkin;
+  bookingCheckOutElem.innerText = booking.checkout;
   bookingGuestsElem.innerText = booking.guests;
-  bookingNightsElem.innerText = nights;
+  bookingNightsElem.innerText = booking.nights;
+
+  // Store the booking data in local storage for use on book.html
+  localStorage.setItem('booking', JSON.stringify(booking));
 
   // Show the div (hidden on page load)
   if (bookingQuoteDiv.style.display != 'block') 

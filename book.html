@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fishing | South Combe Waters</title>      
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="./css/styles.css" rel="stylesheet">  
+    <link href="./css/pages.css" rel="stylesheet">    
+    <link href="./css/mobile.css" rel="stylesheet">        
+  </head>
+
+  <body>
+    <!-- Full size navigation menu -->
+    <header>
+      <nav id="main">
+        <ul>
+          <li><a href="index.html">South Combe Waters</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Lodges</a></li>
+          <li><a href="fishing.html">Fishing</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>          
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">My Booking</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile navigation -->
+      <a id="mobile-show">Navigation Menu</a>                        
+      <nav id="mobile">
+        <ul id="mobile-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lodges.html">Lodges</a></li>
+          <li><a href="fishing.html">Fishing</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>            
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html">My Booking</a></li>        
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Top element with photo background -->
+    <section class="page-photo">
+      <h2>Booking</h2>
+    </section>
+
+    <div class="container">
+      <!-- Main page content -->
+      <section class="page-view flex-row">
+        <div class="flex-left">
+          <h2>Booking Details</h2>
+          <hr>
+          <div id="booking-info" class="booking-info">
+            <p><strong>Amount Total: </strong> &pound;<i id="booking-cost"></i></p>
+            <p><strong>Check In</strong>: <i id="booking-checkin"></i></p>
+            <p><strong>Check Out:</strong> <i id="booking-checkout"></i></p>
+            <p><strong>No. of nights:</strong> <i id="booking-nights"></i></p>
+            <p><strong>Guests</strong>: <i id="booking-guests"></i></p>
+          </div>
+        </div>
+        <div class="flex-right">
+          <form action="http://www.elizabethcastro.com/html6ed/examples/forms/showform.php" method="POST">
+            <h2>Billing Details</h2>
+            
+            <hr>
+
+            <div class="form-field">
+              <label>First Name</label>
+              <input type="text" name="first_name" required>
+            </div>
+
+            <div class="form-field">
+              <label>Last Name</label>
+              <input type="text" name="last_name" required>
+            </div>
+
+            <hr>
+
+            <div class="form-field">
+              <label>Address Line 1</label>
+              <input type="text" name="address_line_1" required>
+            </div>
+
+            <div class="form-field">
+              <label>Address Line 2</label>
+              <input type="text" name="address_line_2">
+            </div>
+
+            <div class="form-field">
+              <label>Town/City</label>
+              <input type="text" name="town" required>
+            </div>
+
+            <div class="form-field">
+              <label>County</label>
+              <input type="text" name="county" required>
+            </div>       
+            
+            <div class="form-field">
+              <label>Post Code</label>
+              <input type="text" name="post_code" required>
+            </div>
+
+            <hr>
+
+            <div class="form-field">
+              <label>Email Address</label>
+              <input type="email" name="email_address" required>
+            </div>
+
+            <div class="form-field">
+              <label>Confirm Email Address</label>
+              <input type="email" name="confirm_email_address" required>
+            </div>
+
+            <div class="form-field">
+              <label>Phone Number</label>
+              <input type="text" name="phone_number" required>
+            </div>
+
+            <input class="btn-fw" type="submit" value="Proceed to payment">
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <footer>
+    <script src="js/mobile.js"></script>
+    <script>
+      // Retrieve booking from local storage
+      let booking = JSON.parse(localStorage.getItem('booking'));
+
+      let bookingCostElem = document.getElementById('booking-cost');
+      let bookingCheckInElem = document.getElementById('booking-checkin');
+      let bookingCheckOutElem = document.getElementById('booking-checkout');
+      let bookingNightsElem = document.getElementById('booking-nights');
+      let bookingGuestsElem = document.getElementById('booking-guests');
+
+      bookingCostElem.innerText = booking.cost.toFixed(2);
+      bookingCheckInElem.innerText = booking.checkin;
+      bookingCheckOutElem.innerText = booking.checkout;
+      bookingNightsElem.innerText = booking.nights;
+      bookingGuestsElem.innerText = booking.guests;
+    </script>
+  </footer>
+</html>
