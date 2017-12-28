@@ -9,6 +9,7 @@
   display: none;
 }
 
+/* Styles to be applied when device width is below 540px to allow the form elements to be read easily */
 @media screen and (max-width: 540px) {
   .booking-container {
     flex-direction: column;
@@ -21,6 +22,7 @@
   }
 }
 
+/* Styles to be applied when device width is below 950px */
 @media screen and (max-width: 950px) {
   .text {
     width: 80vw;

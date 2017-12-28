@@ -1,3 +1,10 @@
+/* 
+ * This JavaScript file reads information about the lodges from js/data/lodges.json
+ * The script processes it and displays relevant information on the page. This JSON
+ * simulates a standard API response from a server where the information is usually
+ * kept in a database and sent to the client, instead of having static webpages.
+*/
+
 // Strict mode to ensure good coding standards are used and syntax is valid
 'use strict';
 
@@ -173,8 +180,27 @@ checkInSelector.addEventListener('change', function() {
   }
 });
 
+
+/* Helper function from: https://www.htmlgoodies.com/html5/javascript/calculating-the-difference-between-two-dates-in-javascript.html */
+Date.daysBetween = function( date1, date2 ) {
+  //Get 1 day in milliseconds
+  var one_day=1000*60*60*24;
+
+  // Convert both dates to milliseconds
+  var date1_ms = date1.getTime();
+  var date2_ms = date2.getTime();
+
+  // Calculate the difference in milliseconds
+  var difference_ms = date2_ms - date1_ms;
+    
+  // Convert back to days and return
+  return Math.round(difference_ms/one_day); 
+}
+
+
 let searchBtn = document.getElementById('search');
 
+// Function to run when 'search' is clicked. Calculate cost of booking and quote the customer
 searchBtn.addEventListener('click', function() {
   let booking = {
     'checkin': document.getElementById('checkin').value,
@@ -182,42 +208,18 @@ searchBtn.addEventListener('click', function() {
     'guests': document.getElementById('guest-selector').value,
   };
 
-  // Booking cost variable
-  let cost = 0;
+  let checkin = new Date(booking.checkin);
+  let checkout = new Date(booking.checkout);
 
-  // Calculate booking cost by getting tariffs from JSON file
-  fetch(url).then(response => response.json())
-  .then(
-    response => response.forEach(function(lodge) {
-      if (lodge.name == lodgeParam) {
-        // Substring calculation adapted from StackOverflow solution to convert to YYYY-MM-DD        
-        let checkin = new Date(booking.checkin).toISOString().substring(0, 10);
-        let checkout = new Date(booking.checkout).toISOString().substring(0, 10);
-        
-        // Iterate through lodge tariffs to get the rates
-        lodge.tariffs.forEach(function(tariff) {
-          // Strip out the date to common format YYYY-MM-DD
-          let startDate = tariff.start_date.substring(0, 10);
-          let endDate = tariff.end_date.substring(0, 10);
+  let nights = Date.daysBetween(new Date(checkin), new Date(checkout));
 
-          // Convert all dates from YYYY-MM-DD into objects to allow comparisons
-          let startDateObj = new Date();
-          startDateObj.setFullYear(startDate.substring(0, 4), startDate.substring(5, 6), startDate.substring(8, 10));
+  /* Static rates used. Weekly rate would be loaded from JSON (server response).
+   * The rate is divided by 7 to get a nightly rate, then multiplied by the 
+   * number of nights that the customer wants to stay for 
+  */
 
-          let endDateObj = new Date();
-          endDateObj.setFullYear(endDate.substring(0, 4), endDate.substring(5, 6), endDate.substring(8, 10));
+  let weeklyRate = 420;
+  let nightlyRate = weeklyRate / 7;
 
-          var checkInDate = new Date();
-          checkInDate.setFullYear(checkin.substring(0, 4), checkin.substring(5, 6), checkin.substring(8, 10));
-
-          var checkOutDate = new Date();
-          checkOutDate.setFullYear(checkout.substring(0, 4), checkout.substring(5, 6), checkout.substring(8, 10));        
-          
-          // Calculate cost of the holiday
-
-        });
-      }
-    })
-  )
-  .catch(e => console.log(e))
+  let cost = nightlyRate * nights;
 })

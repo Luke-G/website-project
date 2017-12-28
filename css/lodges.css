@@ -1,3 +1,5 @@
+/* CSS for lodge.html, this page contains many unique elements in comparison to the others */
+
 #lodge-photo {
   background-attachment: fixed;
   width: 100vw;
@@ -22,6 +24,8 @@ body {
   margin-top: -1em;
   max-width: 1200px;
 }
+
+/* Flex used for two elements aside with 50% width each */
 
 .lodge-view {
   display: flex;  
@@ -63,6 +67,8 @@ body {
   padding: 8px;  
 }
 
+/* CSS for small image gallery on lodge.html */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -103,7 +109,6 @@ h6 {
 .about-stay {
   border: 1px solid #2e4c2e;
 }
-
 
 .about-stay p {
   text-align: justify;
@@ -183,18 +188,20 @@ i {
   margin-left: 1em;
 }
 
+/* CSS for full screen gallery element */
+
 .gallery-fs-image {
   position: absolute;
-  height: 100vh;
-  min-height: 100vh;
-  width: 97.8vw;
+  height: 200%;
+  min-height: 200%;
+  width: 100vw;
   background: #000000b8;
   text-align: center;
-  padding: 1em;
+  padding-top: 4em;
   visibility: hidden;
   cursor: pointer;
 }
 
 .gallery-fs-image img {
-  height: 95vh;
+  width: 70vw;
 }

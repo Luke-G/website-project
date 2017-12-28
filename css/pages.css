@@ -1,0 +1,50 @@
+/* CSS for all other pages which share common elements */
+
+.page-photo {
+  background-attachment: fixed;
+  background-image: url(http://c1.staticflickr.com/5/4511/37944887841_472b5377c9_h.jpg);
+  width: 100vw;
+  height: 40vh;
+  min-height: 40vh;
+  line-height: 40vh;
+  text-transform: uppercase;
+  color: #fff;
+  background-position: 50% 170%;
+  background-size: cover;
+  margin: 0 auto;    
+  font-size: 1.2em;
+}
+  
+body {
+  background: #80808047;
+  color: #484848;
+  font-weight: 100 !important;
+}
+
+.container {
+  margin: 0 auto;  
+  padding: 0;
+  width: auto;
+  background: #fff;
+  margin-top: -1em;
+  max-width: 1200px;
+}
+
+.page-view {
+  display: flex;  
+  flex-direction: column;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-view ul {
+  list-style: square;
+}
+
+.page-view ul li {
+  margin: 1em;
+}
+
+p {
+  padding: 1em 0em 1em 0em;
+}
