@@ -208,6 +208,10 @@ searchBtn.addEventListener('click', function() {
     'guests': document.getElementById('guest-selector').value,
   };
 
+  // Basic validation - 'form' isn't a <form> 
+  if (booking.checkin == 'Select date to check in' || booking.checkout == 'Select date to check out' || booking.guests == 'Guests')
+    return;
+
   let checkin = new Date(booking.checkin);
   let checkout = new Date(booking.checkout);
 
@@ -218,8 +222,26 @@ searchBtn.addEventListener('click', function() {
    * number of nights that the customer wants to stay for 
   */
 
-  let weeklyRate = 420;
+  let weeklyRate = 420.00;
   let nightlyRate = weeklyRate / 7;
 
-  let cost = nightlyRate * nights;
+  booking.cost = nightlyRate * nights;
+
+  // Show booking details in quotation box
+  let bookingQuoteDiv = document.getElementById('booking-quote');
+  let bookingCostElem = document.getElementById('booking-cost');
+  let bookingCheckInElem = document.getElementById('booking-checkin');
+  let bookingCheckOutElem = document.getElementById('booking-checkout');
+  let bookingGuestsElem = document.getElementById('booking-guests');
+  let bookingNightsElem = document.getElementById('booking-nights');
+
+  bookingCostElem.innerHTML = "&pound;" + booking.cost.toFixed(2);
+  bookingCheckInElem.innerText = checkin.toDateString();
+  bookingCheckOutElem.innerText = checkout.toDateString();
+  bookingGuestsElem.innerText = booking.guests;
+  bookingNightsElem.innerText = nights;
+
+  // Show the div (hidden on page load)
+  if (bookingQuoteDiv.style.display != 'block') 
+    bookingQuoteDiv.style.display = 'block';
 })

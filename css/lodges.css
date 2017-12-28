@@ -102,12 +102,21 @@ h6 {
   font-weight: 500;
 }
 
-.about-stay-content {
+.about-stay-content, .booking-quote-content {
   padding: 0.5em;
 }
 
-.about-stay {
+.about-stay, .booking-quote {
   border: 1px solid #2e4c2e;
+}
+
+.booking-quote {
+  display: none;
+  margin-bottom: 1em;
+}
+
+.booking-quote p {
+  padding-bottom: 8px;
 }
 
 .about-stay p {

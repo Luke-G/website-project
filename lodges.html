@@ -54,10 +54,10 @@
       <!-- Booking element above the main lodge view -->
       <section class="booking-container">
         <select name="checkin" id="checkin" required>
-          <option selected disabled>Select date to checkin</option>           
+          <option selected disabled>Select date to check in</option>           
         </select>
         <select name="checkout" id="checkout" required>
-          <option selected disabled>Select date to checkout</option>            
+          <option selected disabled>Select date to check out</option>            
         </select>        
         <select id="guest-selector" required>
           <option selected disabled>Guests</option>
@@ -84,6 +84,17 @@
         </div><!-- ./flex-left -->
 
         <div class="flex-right">
+          <!-- Booking Quote Element when form is submitted -->
+          <div class="booking-quote" id="booking-quote">
+            <h2>Your Quote: <i id="booking-cost"></i></h2>              
+            <div class="booking-quote-content">
+              <p>Check In: 14:00 on <i id="booking-checkin"></i></p>
+              <p>Check Out: 10:00 on <i id="booking-checkout"></i></p>
+              <p>Nights: <i id="booking-nights"></i></p>
+              <p>Guests: <i id="booking-guests"></i></p>
+            </div>
+          </div>
+
           <h2>Take a Look</h2>
           <div id="gallery" class="gallery"></div>
 
