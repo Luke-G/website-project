@@ -60,4 +60,4 @@ lodges.html | Full screen gallery works | Image appears in full screen when clic
 book.html | Data is populated correctly | Booking data is the same as on the previous page | Pass
 book.html | Form doesn't submit when fields are missing | Warnings appear on fields that aren't filled | Pass
 book.html | Form submits when button clicked | Form directs to Elizabeth Castro Show Form script | Pass
-* | Media queries are applied sitewide | Webpage content scales relative to the screen size | Pass
+\* | Media queries are applied sitewide | Webpage content scales relative to the screen size | Pass
