@@ -28,6 +28,7 @@ function selectLodge(name) {
 
         let lodgePreviewImage = document.createElement('img');
         lodgePreviewImage.src = lodge.image_url;
+        lodgePreviewImage.alt = lodge.name + ' Photo';
 
         let lodgePreviewDesc = document.createElement('div');
         lodgePreviewDesc.className = 'lodge-preview-desc';
@@ -78,6 +79,7 @@ function selectLodge(name) {
           let imageDiv = document.createElement('img');
           imageDiv.className = 'gallery-image';
           imageDiv.src = image.url;
+          imageDiv.alt = lodge.name + ' Photo';
 
           // Add event listener to set gallery image and show full screen on click
           imageDiv.addEventListener('click', function() {
