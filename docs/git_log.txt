@@ -1,0 +1,347 @@
+commit b6083fae8d7473d3cfd8a5ffb6c981336ab206d0
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 20:34:27 2017 +0000
+
+    Add about.html links and mailto:
+
+commit 19b00e63c9f942a56b7760f1678262dd30336e3b
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 20:31:44 2017 +0000
+
+    Add Google Maps API
+
+commit 26e607305aa0a1b39d9667dc99ed066c6e1a365b
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 20:19:35 2017 +0000
+
+    Update image links in JSON
+
+commit af89c3881b82c08d8f89d3260a00ea62ed88c38b
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:57:52 2017 +0000
+
+    Fix gallery background colour
+
+commit 1a17da3bac01d359fdcd267db96808d16a19c30e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:55:11 2017 +0000
+
+    Change <section> to <div> where necessary for HTML validation
+
+commit 66f77cda00967320255372f0101fc3b1b08ac339
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:52:34 2017 +0000
+
+    CSS validation fixes
+
+commit 6cb98aff83d85fa604dfe91d3bd09345e9eb573f
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:46:16 2017 +0000
+
+    Escape wildcard(*) on README.md
+
+commit 8805c43414dcd0d05705963bd5461163cea7157e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:44:20 2017 +0000
+
+    Add testing documentation
+
+commit e10cefcb9fd08be3bd961e03041e335c0bd99b0b
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 19:27:17 2017 +0000
+
+    Add wireframes to docs folder
+
+commit ae27c75b44afc34641d977266e4ec811012ba016
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:48:27 2017 +0000
+
+    Fix height of gallery image element
+
+commit 1d43778c1d1f46326c1d7c4465b4ea8cdad22e92
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:40:43 2017 +0000
+
+    Fix positioning of booking container
+
+commit 5e80c6597248ad0b4e08fe5b7fda1965356790bf
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:30:04 2017 +0000
+
+    Add agree to terms and conditions on booking page
+
+commit 4d4860f455ad09a3af428475b0fc609bc7082add
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:24:44 2017 +0000
+
+    Mobile CSS for footer
+
+commit 302ba38973689ccae7330e8994089a373e79b89e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:21:18 2017 +0000
+
+    Fix %20 encoding for URL HTML validation
+
+commit 53852a64db2d616276cbb311c5d01bd66b3ba36a
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:16:34 2017 +0000
+
+    Add terms and privacy policy
+
+commit 5a8f488a34b1a0609b5452482588087729b40e79
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 17:06:07 2017 +0000
+
+    Add footer and CSS
+
+commit 83cddbcc40c8dc4073baa51766a7c0268e54a01c
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:40:18 2017 +0000
+
+    Add HTML sitemap
+
+commit 61f5089046f22031571fb3d995830e76ebe4a010
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:26:13 2017 +0000
+
+    Add attribute tags to dynamically loaded images
+
+commit dd212657a8dba77330e5c46013f5b343c35c5a54
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:24:32 2017 +0000
+
+    Replace images with compressed images
+
+commit 40bfa671d9948a0dddff04c57266cd5c397d9c95
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:19:49 2017 +0000
+
+    Add <html lang=en> attributes
+
+commit 2f78e7866de6b16b10d886f64a0531199ee9cb41
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:18:59 2017 +0000
+
+    Add missing </ul> tag on fishing page
+
+commit 22e572c5fd0af4a681319aa246e71cb9858080b6
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:18:17 2017 +0000
+
+    HTML Validation fixes
+
+commit e5118984f7f5e9a9c4b1257ba73a547b1557e9c8
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Fri Dec 29 16:12:06 2017 +0000
+
+    Move <footer> elements into <body> for HTML5
+
+commit dd031e8309e3ca07cb807620a371980969ec4afc
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Thu Dec 28 17:06:55 2017 +0000
+
+    Mobile styling fixes
+
+commit cfd066e92737fd3cb1ace037de2b3c3cc24aab5d
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Thu Dec 28 16:56:56 2017 +0000
+
+    Fix nav on book.html
+
+commit caecd7c94224d5ff9e9ec7bea204dffd9f00ba54
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Thu Dec 28 16:56:30 2017 +0000
+
+    Add booking form/page
+
+commit e77be0120b5cdf8a4eb99a838748c153f091eed3
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Thu Dec 28 16:00:37 2017 +0000
+
+    Add booking quote box and finish JS calculation
+
+commit ad47599d143a99797e1efeb154fe663ed36b1490
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Thu Dec 28 14:25:58 2017 +0000
+
+    Add extra pages, comment on CSS and JS to calculate cost of booking
+
+commit 7d938bedbd8839fe2b64669d5a9a91948580d240
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 15:42:59 2017 +0000
+
+    Add responsive notes to README.md
+
+commit de81d404db8dfa34c84fb46a821f58e3041950f0
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 15:34:19 2017 +0000
+
+    Convert dates to objects to calculate holiday price
+
+commit f7ab61ac4f082182fc7a23aa45f689e3fccb5501
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 14:53:27 2017 +0000
+
+    Fix index mobile nav
+
+commit 90bc92c5245f527772b16ca5b82a71641f8be7f6
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 14:51:37 2017 +0000
+
+    Fix index mobile nav
+
+commit ab25278b81313e1916f8d57446ac087253a53774
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 14:50:44 2017 +0000
+
+    Mobile CSS for index page
+
+commit 3c18e021953e7e47d0e0ac0394b507c26eb7b0a5
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 14:47:41 2017 +0000
+
+    Add mobile menu to index.html
+
+commit 6e79559b8cb2ef9d5390f903c8e892734379d399
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 14:46:36 2017 +0000
+
+    Mobile device compatibility fixes
+
+commit 2a0fb0b26bc91439cc2bc28d7f005c885a4c72fb
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Tue Dec 26 13:51:46 2017 +0000
+
+    Add checkin and checkout dynamic date values
+
+commit b55aa5451ac1ee2902060f92428265f4a0c53acb
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 19:39:18 2017 +0000
+
+    Add full screen gallery
+
+commit 405b9de8867ee9e48f3dedbc64017d3008b515b1
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 17:00:38 2017 +0000
+
+    Add view other lodges to lodge page
+
+commit 31901bfc3ce9c5106d26d8057d8ad28f70301ab8
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 15:55:28 2017 +0000
+
+    Improved styling on lodge view page
+
+commit 3aba65a9b3fa45ef21c7cf6485ec42ca47246f6b
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 15:29:21 2017 +0000
+
+    Update README.md to detail the expected flow
+
+commit d9b718ef655846c9c372e4750836b53aae4b5d8a
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 15:22:38 2017 +0000
+
+    Load bed count and sleep capacity from JSON
+
+commit a5ba224ddd1f82eec2fd13d76eb0d9f61d9321e5
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 15:01:58 2017 +0000
+
+    Dynamic image gallery loading from JSON
+
+commit 8e76e3c749ffa290c37fce74ea1fea1e0473f68e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 14:16:27 2017 +0000
+
+    Move assets to local storage
+
+commit e8b72e0dc4dfde4aabcf5ca00d005045d38f945f
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 12:26:04 2017 +0000
+
+    Add information to README.md
+
+commit beee217e83f51d7981695df19eef8efa13aa8cda
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 12:09:14 2017 +0000
+
+    Remove irrelevant data from JSON
+
+commit 84aa2af1c1f64c948b8b3e2efe15093b1eda5ce1
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 11:52:50 2017 +0000
+
+    Mobile styling for gallery on lodge page
+
+commit 3e77c91f5b005d63bfea0707d9566741e2d777b4
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Mon Dec 25 11:49:37 2017 +0000
+
+    Add smooth scrolling button effects on index
+
+commit 215fe670cbda4da6af3b6290e02019b7e6d63605
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 22:20:47 2017 +0000
+
+    Mobile nav menu
+
+commit cc1c49175d16378c1a382925f26484f7dab6bb4d
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 21:45:00 2017 +0000
+
+    Edit font and change font weight styles
+
+commit 2adad13e05b7c7bf960dde7518ae2dd24cc355a7
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 21:27:19 2017 +0000
+
+    Add URL parameter for lodges and catch if value is invalid
+
+commit 75e5de6dba60fed541cff7c12b1241689731046f
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 21:14:51 2017 +0000
+
+    Change JSON to relative path
+
+commit ca543179273bd52a8ef59c92bd8f602bc3889fad
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 21:12:59 2017 +0000
+
+    Edit css href's for GitHub Pages
+
+commit a28ca6a1cfe841baca65a3265355cfb16d376e22
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 20:39:46 2017 +0000
+
+    Fix CSS relative path
+
+commit 1d00a7f2e8e6d697399f388a41ab9aa00d1d5bd0
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 19:18:44 2017 +0000
+
+    Add feature attributes to JSON and output to lodge page
+
+commit 368fa4ffb8d998c753d580049c28bf77d5eba86e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 16:17:37 2017 +0000
+
+    Add content and styling to lodge view page
+
+commit 83e106c2e4b34b9485a1fccaa7bb32ea937af96d
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 15:35:36 2017 +0000
+
+    Add lodge view page
+
+commit 204df79b2d851af1e01113e7a13bc225cbc1075f
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sun Dec 24 15:33:44 2017 +0000
+
+    Add home page and CSS styling
+
+commit faddc6e5f1f431f632272febc926622bb94ffc2e
+Author: Luke Gorman <lukegorman97@gmail.com>
+Date:   Sat Dec 23 21:17:44 2017 +0000
+
+    Initial commit
