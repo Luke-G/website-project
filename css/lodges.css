@@ -29,6 +29,7 @@ body {
 
 .lodge-view {
   display: flex;  
+  margin-bottom: 2em;
   font-family: 'Open Sans', sans-serif;
 }
 
