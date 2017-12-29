@@ -15,8 +15,7 @@ This website has been created using:
 
 ### Anticipated Visitor Flow
 * Use lands on index.html
-* User clicks learn more
-* User clicks 'view our lodges'
+* User clicks learn more then 'view our lodges'
 * User finds a lodge they like
 * User selects from available checkin and checkout dates
 * User 'searches' for availability

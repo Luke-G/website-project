@@ -21,7 +21,6 @@
           <li><a href="lodges.html">Lodges</a></li>
           <li><a href="fishing.html">Fishing</a></li>
           <li><a href="about.html">About</a></li>          
-          <li><a href="booking.html">My Booking</a></li>
         </ul>
       </nav>
 
@@ -33,7 +32,6 @@
           <li><a href="lodges.html">Lodges</a></li>
           <li><a href="fishing.html">Fishing</a></li>
           <li><a href="about.html">About</a></li>            
-          <li><a href="booking.html">My Booking</a></li>        
         </ul>
       </nav>
     </header>
@@ -121,26 +119,10 @@
           </form>
         </div>
       </section>
-    </div>
+    </div>  
+    <footer>
+      <script src="js/mobile.js"></script>
+      <script src="js/booking.js"></script>
+    </footer>
   </body>
-
-  <footer>
-    <script src="js/mobile.js"></script>
-    <script>
-      // Retrieve booking from local storage
-      let booking = JSON.parse(localStorage.getItem('booking'));
-
-      let bookingCostElem = document.getElementById('booking-cost');
-      let bookingCheckInElem = document.getElementById('booking-checkin');
-      let bookingCheckOutElem = document.getElementById('booking-checkout');
-      let bookingNightsElem = document.getElementById('booking-nights');
-      let bookingGuestsElem = document.getElementById('booking-guests');
-
-      bookingCostElem.innerText = booking.cost.toFixed(2);
-      bookingCheckInElem.innerText = booking.checkin;
-      bookingCheckOutElem.innerText = booking.checkout;
-      bookingNightsElem.innerText = booking.nights;
-      bookingGuestsElem.innerText = booking.guests;
-    </script>
-  </footer>
 </html>
