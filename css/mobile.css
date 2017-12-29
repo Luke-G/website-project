@@ -10,6 +10,10 @@
 }
 
 @media screen and (max-width: 340px) {
+  .footer-column {
+    padding: 4px;
+  }
+  
   .page-view {
     padding: 12px;
   }
@@ -112,5 +116,13 @@
 
   #lodge-photo {
     height: 54.5vh;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin: 0;
   }
 }
