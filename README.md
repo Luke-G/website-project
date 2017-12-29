@@ -13,6 +13,8 @@ This website has been created using:
 
 >**JSON** is used to store data about the lodges held on the site at South Combe Waters. This simulates a server API response sending data from a database, and is consumed by the JavaScript to output the data on relevant pages on the website.
 
+Images have been compressed using compressor.io to aid in faster webpage load times
+
 ### Anticipated Visitor Flow
 * Use lands on index.html
 * User clicks learn more then 'view our lodges'
