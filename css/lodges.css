@@ -189,8 +189,8 @@ h6 {
 
 .gallery-fs-image {
   position: absolute;
-  height: 200%;
-  min-height: 200%;
+  height: 100%;
+  min-height: 100%;
   width: 100vw;
   background: #000000b8;
   text-align: center;
