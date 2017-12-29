@@ -38,7 +38,7 @@ On the lodge page (lodges.html), the two columns with 50% width move to 100% wid
 When the screen width shrinks below 540px, the input boxes for the booking form become 100% width to allow easy accessibility on mobile devices, and the website maintains full functionality and access to the features, catering for all users.
 
 ### Remarks
-Photographs used are copyright of Tonis Ael and South Combe Waters. Permission to use this content has been given.
+Photographs used are copyright of Tõnis Aal and South Combe Waters. Permission to use this content has been given.
 
 The site is primarily optimised for use on desktops with modern browsers such as Google Chrome or Firefox. However, all components of the site are accessible on mobile/tablet devices.
 
