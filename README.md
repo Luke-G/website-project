@@ -45,6 +45,8 @@ The site is primarily optimised for use on desktops with modern browsers such as
 ### Testing
 Testing has been conducted by myself using Google Chrome and Firefox web browsers.
 
+All HTML and CSS files have been successfully tested using the W3C validation services.
+
 | Page | Test | Expected Result | Pass/Fail
 | - | - | - | -
 | index.html | Book button works | Directs user to lodges.html | Pass
